@@ -1,0 +1,25 @@
+'select()' returned 1:many mapping between keys and columns
+Found 2 file(s)
+GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version of GPL571 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GPL571.annot.gz 
+GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version of GPL96 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GPL96.annot.gz 
+=== Specificity check: HSF2 vs PTPRC (pan-leukocyte) vs HSF2 vs NET_core ===
+                                                  comparison   n        rho
+               GSE135251_liver: HSF2 vs PTPRC (NAFLD subset) 206  0.1783806
+   GSE135251_liver: HSF2 vs NET_core (NAFLD subset) [repeat] 206 -0.1447305
+           GSE135251_liver: PTPRC vs NET_core (NAFLD subset) 206  0.2515123
+             GSE14323_liver: HSF2 vs PTPRC (diseased subset)  96  0.4482637
+ GSE14323_liver: HSF2 vs NET_core (diseased subset) [repeat]  96 -0.5504748
+         GSE14323_liver: PTPRC vs NET_core (diseased subset)  96 -0.2239419
+      p_value
+ 1.030948e-02
+ 3.793329e-02
+ 2.656186e-04
+ 4.650039e-06
+ 6.236046e-09
+ 2.828083e-02

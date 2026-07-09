@@ -1,0 +1,46 @@
+Found 2 file(s)
+GSE47460-GPL14550_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL14550_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+Using locally cached version of GPL14550 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL14550.soft.gz 
+GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version of GPL6480 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL6480.annot.gz 
+
+=== gset[[ 1 ]] GPL14550 n= 429 ===
+-- disease state --
+
+Chronic Obstructive Lung Disease                          Control 
+                             145                               91 
+       Interstitial lung disease                             <NA> 
+                             193                                0 
+-- ild subtype --
+
+   1-ILD of known cause, hypersensitivity or associated w/ CVD 
+                                                            11 
+                                   10-Fibrosis-Uncharacterized 
+                                                             7 
+                                                     2-UIP/IPF 
+                                                           122 
+                                                        3-NSIP 
+                                                            14 
+                   4-Desquamative interstitial pneumonia (DIP) 
+                                                             4 
+5-Respiratory bronchiolitis-interstitial lung disease (RB-ILD) 
+                                                            11 
+                      7-Cryptogenic Organizing Pneumonia (COP) 
+                                                             2 
+                          8-Acute interstitial pneumonia (AIP) 
+                                                             1 
+                             9-Hypersensitive Pneumonitis (HP) 
+                                                            21 
+                                                          <NA> 
+                                                           236 
+range expr: 0.3434 19.8015 
+fData cols: ID, SPOT_ID, CONTROL_TYPE, REFSEQ, GB_ACC, GENE, GENE_SYMBOL, GENE_NAME, UNIGENE_ID, ENSEMBL_ID, TIGR_ID, ACCESSION_STRING, CHROMOSOMAL_LOCATION, CYTOBAND, DESCRIPTION, GO_ID, SEQUENCE 
+Error in `[.data.frame`(fd, fd$`Gene symbol` %in% c("HSF2", "PADI4"),  : 
+  undefined columns selected
+Calls: [ -> [.data.frame
+Execution halted

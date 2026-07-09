@@ -1,0 +1,91 @@
+Found 1 file(s)
+GSE53845_series_matrix.txt.gz
+n platforms: 1 
+dim: 41000 48  platform: GPL6480 
+ [1] "title"                   "geo_accession"          
+ [3] "status"                  "submission_date"        
+ [5] "last_update_date"        "type"                   
+ [7] "channel_count"           "source_name_ch1"        
+ [9] "organism_ch1"            "characteristics_ch1"    
+[11] "characteristics_ch1.1"   "characteristics_ch1.2"  
+[13] "characteristics_ch1.3"   "characteristics_ch1.4"  
+[15] "treatment_protocol_ch1"  "molecule_ch1"           
+[17] "extract_protocol_ch1"    "label_ch1"              
+[19] "label_protocol_ch1"      "taxid_ch1"              
+[21] "source_name_ch2"         "organism_ch2"           
+[23] "characteristics_ch2"     "treatment_protocol_ch2" 
+[25] "molecule_ch2"            "extract_protocol_ch2"   
+[27] "label_ch2"               "label_protocol_ch2"     
+[29] "taxid_ch2"               "hyb_protocol"           
+[31] "scan_protocol"           "description"            
+[33] "data_processing"         "platform_id"            
+[35] "contact_name"            "contact_email"          
+[37] "contact_department"      "contact_institute"      
+[39] "contact_address"         "contact_city"           
+[41] "contact_state"           "contact_zip/postal_code"
+[43] "contact_country"         "supplementary_file"     
+[45] "data_row_count"          "diagnosis:ch1"          
+[47] "disease state:ch1"       "gender:ch1"             
+[49] "sample type:ch2"         "source:ch1"             
+[51] "tissue:ch1"             
+-- disease/group-like columns --
+
+ status :
+
+Public on Oct 14 2014                  <NA> 
+                   48                     0 
+
+ characteristics_ch1 :
+
+                      disease state: control 
+                                           8 
+disease state: idiopathic pulmonary fibrosis 
+                                          40 
+                                        <NA> 
+                                           0 
+
+ characteristics_ch1.1 :
+
+tissue: lung         <NA> 
+          48            0 
+
+ characteristics_ch1.2 :
+
+diagnosis: control     diagnosis: IPF               <NA> 
+                 8                 40                  0 
+
+ characteristics_ch1.3 :
+
+    source: biopsy   source: necropsy source: transplant               <NA> 
+                11                  8                 29                  0 
+
+ characteristics_ch1.4 :
+
+gender: Female   gender: Male           <NA> 
+             9             39              0 
+
+ characteristics_ch2 :
+
+sample type: Stratagene Universal Human Reference RNA (catalog number 740000) 
+                                                                           48 
+                                                                         <NA> 
+                                                                            0 
+
+ diagnosis:ch1 :
+
+control     IPF    <NA> 
+      8      40       0 
+
+ disease state:ch1 :
+
+                      control idiopathic pulmonary fibrosis 
+                            8                            40 
+                         <NA> 
+                            0 
+
+ tissue:ch1 :
+
+lung <NA> 
+  48    0 
+range expr: -8.3244 10.8235 
+fData cols: ID, Gene title, Gene symbol, Gene ID, UniGene title, UniGene symbol, UniGene ID, Nucleotide Title, GI, GenBank Accession, Platform_CLONEID, Platform_ORF, Platform_SPOTID, Chromosome location, Chromosome annotation, GO:Function, GO:Process, GO:Component, GO:Function ID, GO:Process ID, GO:Component ID, Platform_SEQUENCE 

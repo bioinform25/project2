@@ -1,0 +1,57 @@
+Found 2 file(s)
+GSE47460-GPL14550_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL14550_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+Using locally cached version of GPL14550 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL14550.soft.gz 
+GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version of GPL6480 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL6480.annot.gz 
+--- data_processing (GPL14550) ---
+[1] "The scanned images were analyzed with Feature Extraction Software 9.1 (Agilent) using default perameters to obtain background subtracted and spatially detrended Processed Signal intensities.  Features flagged in Feature Extraction as Feature Non-uniform outliers were excluded.  The resulting array data was normalized using a cyclic loess approach in pairwise fashion.  Probes were then collapsed to one gene/one probe by highest signal intensity."
+
+--- fData(es2) cols (GPL6480) ---
+ [1] "ID"                    "Gene title"            "Gene symbol"          
+ [4] "Gene ID"               "UniGene title"         "UniGene symbol"       
+ [7] "UniGene ID"            "Nucleotide Title"      "GI"                   
+[10] "GenBank Accession"     "Platform_CLONEID"      "Platform_ORF"         
+[13] "Platform_SPOTID"       "Chromosome location"   "Chromosome annotation"
+[16] "GO:Function"           "GO:Process"            "GO:Component"         
+[19] "GO:Function ID"        "GO:Process ID"         "GO:Component ID"      
+[22] "Platform_SEQUENCE"    
+
+--- gset2 disease state ---
+
+Chronic Obstructive Lung Disease                          Control 
+                              75                               17 
+       Interstitial lung disease 
+                              61 
+
+--- gset2 ild subtype ---
+
+   1-ILD of known cause, hypersensitivity or associated w/ CVD 
+                                                             3 
+                                   10-Fibrosis-Uncharacterized 
+                                                             3 
+                                                     2-UIP/IPF 
+                                                            38 
+                                                        3-NSIP 
+                                                             3 
+                   4-Desquamative interstitial pneumonia (DIP) 
+                                                             2 
+5-Respiratory bronchiolitis-interstitial lung disease (RB-ILD) 
+                                                             2 
+                      7-Cryptogenic Organizing Pneumonia (COP) 
+                                                             1 
+                             9-Hypersensitive Pneumonitis (HP) 
+                                                             9 
+
+GPL14550 HSF2/NET probes:
+                       ID GENE_SYMBOL
+A_23_P130961 A_23_P130961       ELANE
+A_23_P138262 A_23_P138262       PADI4
+A_23_P141173 A_23_P141173         MPO
+A_32_P9963     A_32_P9963        HSF2
+
+GPL6480 symbol-like columns: Gene symbol UniGene symbol 

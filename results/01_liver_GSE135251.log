@@ -1,0 +1,67 @@
+'select()' returned 1:many mapping between keys and columns
+Panel gene -> Ensembl mapping (1:many resolved by max total count):
+         SYMBOL         ENSEMBL total_count
+AZU1       AZU1 ENSG00000172232         259
+CAMP       CAMP ENSG00000164047         407
+CTSG       CTSG ENSG00000100448        3483
+DEFA4     DEFA4 ENSG00000164821         312
+ELANE     ELANE ENSG00000197561         304
+HSF2       HSF2 ENSG00000025156       23125
+ITGAM     ITGAM ENSG00000169896       18894
+LCN2       LCN2 ENSG00000148346       10347
+LTF         LTF ENSG00000012223        6585
+MPO         MPO ENSG00000005381        1278
+NCF2       NCF2 ENSG00000116701       25735
+PADI4     PADI4 ENSG00000159339         628
+S100A12 S100A12 ENSG00000163221        1337
+
+Per-sample detection rate (fraction of 216 samples with count > 0):
+  ELANE    AZU1   DEFA4    CAMP   PADI4 S100A12     MPO    CTSG    HSF2   ITGAM 
+  0.417   0.426   0.454   0.602   0.792   0.903   0.949   0.963   1.000   1.000 
+   LCN2     LTF    NCF2 
+  1.000   1.000   1.000 
+
+=== PRIMARY + SECONDARY RESULTS (GSE135251 liver) ===
+                                                         comparison   n
+          GSE135251_liver: HSF2 vs NET_core (NAFLD subset, primary) 206
+      GSE135251_liver: HSF2 vs NET_core (all samples incl. control) 216
+               GSE135251_liver: HSF2 vs NET_extended (NAFLD subset) 206
+     GSE135251_liver: HSF2 vs fibrosis stage (ordinal, all samples) 216
+ GSE135251_liver: NET_core vs fibrosis stage (ordinal, all samples) 216
+          rho     p_value      ci_lo        ci_hi loo_rho_min  loo_rho_max
+ -0.144730547 0.037933292 -0.2876181 -0.002054083 -0.15914669 -0.132555613
+ -0.149367104 0.028175895 -0.2822302 -0.010938615 -0.16324229 -0.137805791
+ -0.180416422 0.009458104 -0.3152807 -0.042914250 -0.19546183 -0.168684097
+ -0.004527853 0.947250610 -0.1378683  0.136115668 -0.01571272  0.006953733
+ -0.086879256 0.203424175 -0.2152210  0.054226857 -0.09900310 -0.074651823
+
+=== INDIVIDUAL GENE RESULTS (BH-FDR corrected) ===
+                                      comparison   n         rho     p_value
+    GSE135251_liver: HSF2 vs CTSG (NAFLD subset) 206 -0.20860008 0.002621715
+     GSE135251_liver: HSF2 vs LTF (NAFLD subset) 206 -0.20584515 0.002994420
+   GSE135251_liver: HSF2 vs ELANE (NAFLD subset) 206 -0.19187672 0.005728845
+    GSE135251_liver: HSF2 vs AZU1 (NAFLD subset) 206 -0.14135164 0.042701333
+    GSE135251_liver: HSF2 vs LCN2 (NAFLD subset) 206 -0.12780598 0.067143289
+   GSE135251_liver: HSF2 vs PADI4 (NAFLD subset) 206 -0.11974554 0.086457539
+   GSE135251_liver: HSF2 vs ITGAM (NAFLD subset) 206 -0.09776071 0.162130201
+   GSE135251_liver: HSF2 vs DEFA4 (NAFLD subset) 206 -0.09004879 0.198026167
+    GSE135251_liver: HSF2 vs CAMP (NAFLD subset) 206 -0.05590920 0.424760451
+    GSE135251_liver: HSF2 vs NCF2 (NAFLD subset) 206 -0.05351165 0.444920425
+     GSE135251_liver: HSF2 vs MPO (NAFLD subset) 206 -0.02531828 0.717925714
+ GSE135251_liver: HSF2 vs S100A12 (NAFLD subset) 206 -0.02683843 0.701772400
+      p_FDR
+ 0.01796652
+ 0.01796652
+ 0.02291538
+ 0.12810400
+ 0.16114389
+ 0.17291508
+ 0.27793749
+ 0.29703925
+ 0.53390451
+ 0.53390451
+ 0.71792571
+ 0.71792571
+`geom_smooth()` using formula = 'y ~ x'
+
+Done. Outputs written to C:/Users/SAMSUNG/Desktop/project2/results and C:/Users/SAMSUNG/Desktop/project2/figures 

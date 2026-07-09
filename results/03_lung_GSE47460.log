@@ -1,0 +1,74 @@
+Found 2 file(s)
+GSE47460-GPL14550_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE47460/GSE47460-GPL14550_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+Using locally cached version of GPL14550 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE47460/GPL14550.soft.gz 
+GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE47460/GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version of GPL6480 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE47460/GPL6480.annot.gz 
+Group sizes:
+group
+  Control      COPD ILD_other   UIP_IPF      <NA> 
+       91       145        71       122         0 
+
+Panel gene -> probe mapping:
+                       ID GENE_SYMBOL
+A_23_P124108 A_23_P124108       ITGAM
+A_23_P130961 A_23_P130961       ELANE
+A_23_P138194 A_23_P138194        NCF2
+A_23_P138262 A_23_P138262       PADI4
+A_23_P140384 A_23_P140384        CTSG
+A_23_P141173 A_23_P141173         MPO
+A_23_P166848 A_23_P166848         LTF
+A_23_P169437 A_23_P169437        LCN2
+A_23_P253791 A_23_P253791        CAMP
+A_23_P326080 A_23_P326080       DEFA4
+A_23_P74001   A_23_P74001     S100A12
+A_32_P9963     A_32_P9963        HSF2
+
+NOTE - panel genes with no probe on GPL14550: AZU1 
+
+=== PRIMARY + SECONDARY RESULTS (GSE47460 lung, primary cohort) ===
+                                                     comparison   n         rho
+      GSE47460_lung: HSF2 vs NET_core (UIP/IPF subset, primary) 122 -0.39173156
+             GSE47460_lung: HSF2 vs NET_core (Control+IPF, all) 213 -0.37752687
+           GSE47460_lung: HSF2 vs NET_extended (UIP/IPF subset) 122 -0.35993265
+     GSE47460_lung: HSF2 vs disease status (binary Control/IPF) 213  0.46815292
+ GSE47460_lung: NET_core vs disease status (binary Control/IPF) 213  0.02855531
+      p_value      ci_lo      ci_hi loo_rho_min loo_rho_max
+ 8.122266e-06 -0.5384860 -0.2183278 -0.41639753 -0.37719546
+ 1.275294e-08 -0.4952113 -0.2532726 -0.39626873 -0.36904430
+ 4.661133e-05 -0.5122325 -0.1971053 -0.38171044 -0.34413417
+ 5.330738e-13  0.3561062  0.5696773  0.46345478  0.48201168
+ 6.785935e-01 -0.1182823  0.1663565  0.01949254  0.03836132
+
+=== INDIVIDUAL GENE RESULTS (BH-FDR corrected) ===
+                                      comparison   n         rho      p_value
+   GSE47460_lung: HSF2 vs ITGAM (UIP/IPF subset) 122 -0.47585012 3.036818e-08
+    GSE47460_lung: HSF2 vs NCF2 (UIP/IPF subset) 122 -0.47704382 2.773679e-08
+    GSE47460_lung: HSF2 vs CAMP (UIP/IPF subset) 122 -0.45675690 1.236053e-07
+    GSE47460_lung: HSF2 vs LCN2 (UIP/IPF subset) 122  0.44247168 3.345326e-07
+     GSE47460_lung: HSF2 vs LTF (UIP/IPF subset) 122  0.43556864 5.326204e-07
+   GSE47460_lung: HSF2 vs ELANE (UIP/IPF subset) 122 -0.34750124 8.792463e-05
+   GSE47460_lung: HSF2 vs DEFA4 (UIP/IPF subset) 122 -0.32798836 2.260084e-04
+     GSE47460_lung: HSF2 vs MPO (UIP/IPF subset) 122 -0.32037816 3.212022e-04
+   GSE47460_lung: HSF2 vs PADI4 (UIP/IPF subset) 122 -0.20513151 2.341549e-02
+ GSE47460_lung: HSF2 vs S100A12 (UIP/IPF subset) 122 -0.19945476 2.762641e-02
+    GSE47460_lung: HSF2 vs CTSG (UIP/IPF subset) 122 -0.04814611 5.984560e-01
+        p_FDR
+ 1.670250e-07
+ 1.670250e-07
+ 4.532196e-07
+ 9.199647e-07
+ 1.171765e-06
+ 1.611952e-04
+ 3.551560e-04
+ 4.416531e-04
+ 2.861893e-02
+ 3.038905e-02
+ 5.984560e-01
+`geom_smooth()` using formula = 'y ~ x'
+
+Done. Outputs written to C:/Users/SAMSUNG/Desktop/project2/results and C:/Users/SAMSUNG/Desktop/project2/figures 

@@ -1,0 +1,14 @@
+# Raw downloaded/copied GEO data - large, regenerable via scripts/ (GEOquery re-downloads
+# automatically; GSE135251_RAW counts are re-copyable from the original GEO supplementary
+# file GSE135251_RAW.tar, see README "Data" section)
+data/
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+Thumbs.db
+.DS_Store

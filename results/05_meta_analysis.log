@@ -1,0 +1,40 @@
+=== Primary endpoint (HSF2 vs NET_core) across all 4 cohorts ===
+          cohort organ
+ liver_GSE135251 Liver
+  liver_GSE14323 Liver
+   lung_GSE47460  Lung
+   lung_GSE53845  Lung
+                                                              comparison   n
+               GSE135251_liver: HSF2 vs NET_core (NAFLD subset, primary) 206
+ GSE14323_liver: HSF2 vs NET_core (diseased subset, primary/replication)  96
+               GSE47460_lung: HSF2 vs NET_core (UIP/IPF subset, primary) 122
+       GSE53845_lung: HSF2 vs NET_core (IPF subset, primary/replication)  40
+         rho      p_value      ci_lo        ci_hi
+ -0.14473055 3.793329e-02 -0.2876181 -0.002054083
+ -0.55047477 6.236046e-09 -0.6889245 -0.380623012
+ -0.39173156 8.122266e-06 -0.5384860 -0.218327846
+ -0.04990619 7.597445e-01 -0.3498413  0.273630694
+
+=== Overall random-effects meta-analysis (4 cohorts, 2 organs) ===
+pooled rho = -0.308, 95% CI [-0.508, -0.076], p = 0.0101
+Heterogeneity: Q(df=3) = 18.14, I^2 = 83.5%, tau^2 = 0.0493
+            label         rho   n weight_re
+1 liver_GSE135251 -0.14473055 206 0.2814635
+2  liver_GSE14323 -0.55047477  96 0.2541335
+3   lung_GSE47460 -0.39173156 122 0.2644886
+4   lung_GSE53845 -0.04990619  40 0.1999144
+
+Liver-only pooled rho = -0.359, 95% CI [-0.686, 0.087], p = 0.112
+Lung-only  pooled rho = -0.252, 95% CI [-0.545, 0.095], p = 0.153
+
+=== Meta-analysis summary table ===
+                  level pooled_rho      ci_lo       ci_hi    p_value       I2
+    Overall (4 cohorts) -0.3075083 -0.5078511 -0.07560794 0.01006946 83.45955
+ Liver only (2 cohorts) -0.3594490 -0.6857763  0.08721010 0.11173937 93.00118
+  Lung only (2 cohorts) -0.2519417 -0.5445203  0.09529861 0.15289981 73.24401
+Warning message:
+`geom_errorbarh()` was deprecated in ggplot2 4.0.0.
+ℹ Please use the `orientation` argument of `geom_errorbar()` instead. 
+`height` was translated to `width`.
+
+Done. Meta-analysis outputs written to C:/Users/SAMSUNG/Desktop/project2/results and C:/Users/SAMSUNG/Desktop/project2/figures 

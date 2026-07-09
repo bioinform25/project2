@@ -1,0 +1,16 @@
+Found 2 file(s)
+GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version of GPL571 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GPL571.annot.gz 
+GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version of GPL96 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GPL96.annot.gz 
+range: 3.480314 14.3569 
+quantiles:
+       0%        1%       25%       50%       75%       99%      100% 
+ 3.480314  3.835443  5.000558  6.085928  7.458621 12.061826 14.356901 
+
+data_processing field:
+[1] "The CEL files from the two Affymetrix series were combined using the matchprobes package in the R programming environment. Thereafter, the RMA method in the R affy package was used to obtain probe set expression summaries."

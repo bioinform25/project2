@@ -1,0 +1,24 @@
+Found 2 file(s)
+GSE47460-GPL14550_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL14550_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+Using locally cached version of GPL14550 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL14550.soft.gz 
+GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GSE47460-GPL6480_series_matrix.txt.gz
+Using locally cached version of GPL6480 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE47460/GPL6480.annot.gz 
+                       ID GENE_SYMBOL
+A_23_P124108 A_23_P124108       ITGAM
+A_23_P130961 A_23_P130961       ELANE
+A_23_P138194 A_23_P138194        NCF2
+A_23_P138262 A_23_P138262       PADI4
+A_23_P140384 A_23_P140384        CTSG
+A_23_P141173 A_23_P141173         MPO
+A_23_P166848 A_23_P166848         LTF
+A_23_P169437 A_23_P169437        LCN2
+A_23_P253791 A_23_P253791        CAMP
+A_23_P326080 A_23_P326080       DEFA4
+A_23_P74001   A_23_P74001     S100A12
+A_32_P9963     A_32_P9963        HSF2
+Missing: AZU1 

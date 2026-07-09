@@ -1,0 +1,73 @@
+Found 2 file(s)
+GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version of GPL571 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GPL571.annot.gz 
+GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version of GPL96 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE14323/GPL96.annot.gz 
+Panel gene -> probe mapping (multi-probe collapsed by max mean expression):
+        Gene symbol          ID mean_expr
+AZU1           AZU1 214575_s_at  4.542013
+CAMP           CAMP   210244_at  6.208480
+CTSG           CTSG   205653_at  6.881320
+DEFA4         DEFA4   207269_at  5.347483
+ELANE         ELANE   206871_at  4.702947
+HSF2           HSF2 209657_s_at  5.245935
+ITGAM         ITGAM 205786_s_at  6.335607
+LCN2           LCN2   212531_at  8.067375
+LTF             LTF 202018_s_at  5.237943
+MPO             MPO   203949_at  5.237930
+NCF2           NCF2   209949_at  6.065277
+PADI4         PADI4 211413_s_at  4.584711
+S100A12     S100A12   205863_at  5.094560
+
+=== PRIMARY + SECONDARY RESULTS (GSE14323 liver, replication cohort) ===
+                                                              comparison   n
+ GSE14323_liver: HSF2 vs NET_core (diseased subset, primary/replication)  96
+             GSE14323_liver: HSF2 vs NET_core (all samples incl. normal) 115
+                  GSE14323_liver: HSF2 vs NET_extended (diseased subset)  96
+         GSE14323_liver: HSF2 vs disease severity (ordinal, all samples) 115
+     GSE14323_liver: NET_core vs disease severity (ordinal, all samples) 115
+          rho      p_value       ci_lo        ci_hi loo_rho_min loo_rho_max
+ -0.550474769 6.236046e-09 -0.68892447 -0.380623012 -0.57583987 -0.53612822
+ -0.557500197 9.693073e-11 -0.68117266 -0.411593456 -0.57973310 -0.54601972
+ -0.215626696 3.486575e-02 -0.40734057 -0.008134281 -0.24307111 -0.19213326
+  0.122785686 1.911115e-01 -0.06225428  0.309746624  0.10155173  0.14382171
+  0.001442689 9.877912e-01 -0.17007744  0.182289787 -0.01790718  0.01952967
+
+=== INDIVIDUAL GENE RESULTS (BH-FDR corrected) ===
+                                        comparison  n         rho      p_value
+   GSE14323_liver: HSF2 vs PADI4 (diseased subset) 96 -0.49633749 2.707055e-07
+    GSE14323_liver: HSF2 vs CAMP (diseased subset) 96 -0.45945469 2.491774e-06
+   GSE14323_liver: HSF2 vs ELANE (diseased subset) 96 -0.42155453 1.890974e-05
+    GSE14323_liver: HSF2 vs NCF2 (diseased subset) 96  0.38844276 9.198106e-05
+    GSE14323_liver: HSF2 vs AZU1 (diseased subset) 96 -0.35299783 4.192996e-04
+   GSE14323_liver: HSF2 vs ITGAM (diseased subset) 96  0.34290559 6.260375e-04
+   GSE14323_liver: HSF2 vs DEFA4 (diseased subset) 96 -0.33708627 7.840935e-04
+     GSE14323_liver: HSF2 vs MPO (diseased subset) 96 -0.27748237 6.198052e-03
+ GSE14323_liver: HSF2 vs S100A12 (diseased subset) 96  0.21802767 3.284390e-02
+     GSE14323_liver: HSF2 vs LTF (diseased subset) 96  0.17634292 8.567565e-02
+    GSE14323_liver: HSF2 vs LCN2 (diseased subset) 96  0.13484807 1.902228e-01
+    GSE14323_liver: HSF2 vs CTSG (diseased subset) 96  0.05111232 6.209110e-01
+        p_FDR
+ 3.248467e-06
+ 1.495065e-05
+ 7.563896e-05
+ 2.759432e-04
+ 1.006319e-03
+ 1.252075e-03
+ 1.344160e-03
+ 9.297078e-03
+ 4.379186e-02
+ 1.028108e-01
+ 2.075158e-01
+ 6.209110e-01
+
+=== REPLICATION CHECK: HSF2 vs NET_core primary endpoint ===
+Cohort1 (GSE135251) rho=-0.145 p=0.0379 | Cohort2 (GSE14323) rho=-0.550 p=6.24e-09
+Same sign: TRUE | Both nominally significant: TRUE | REPLICATED (pre-specified rule): TRUE
+`geom_smooth()` using formula = 'y ~ x'
+
+Done. Outputs written to C:/Users/SAMSUNG/Desktop/project2/results and C:/Users/SAMSUNG/Desktop/project2/figures 

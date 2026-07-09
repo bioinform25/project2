@@ -1,0 +1,69 @@
+Found 1 file(s)
+GSE53845_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE53845/GSE53845_series_matrix.txt.gz
+Using locally cached version of GPL6480 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE53845/GPL6480.annot.gz 
+Panel gene -> probe mapping (multi-probe collapsed by max mean expression):
+        Gene symbol           ID  mean_expr
+AZU1           AZU1 A_23_P153741  0.1103375
+CAMP           CAMP A_23_P253791  1.7777292
+CTSG           CTSG A_23_P140384  1.9282667
+DEFA4         DEFA4 A_23_P326080  0.7132979
+ELANE         ELANE A_23_P130961  0.5887646
+HSF2           HSF2   A_32_P9963 -0.4004521
+ITGAM         ITGAM A_23_P124108  3.1824854
+LCN2           LCN2 A_23_P169437  3.7151646
+LTF             LTF A_23_P166848  2.2389771
+MPO             MPO A_23_P141173  0.6640938
+NCF2           NCF2 A_23_P138194  4.7280104
+PADI4         PADI4 A_23_P369502  0.2577104
+S100A12     S100A12  A_23_P74001  2.9329896
+
+=== PRIMARY + SECONDARY RESULTS (GSE53845 lung, replication cohort) ===
+                                                        comparison  n
+ GSE53845_lung: HSF2 vs NET_core (IPF subset, primary/replication) 40
+       GSE53845_lung: HSF2 vs NET_core (all samples incl. control) 48
+                  GSE53845_lung: HSF2 vs NET_extended (IPF subset) 40
+        GSE53845_lung: HSF2 vs disease status (binary control/IPF) 48
+    GSE53845_lung: NET_core vs disease status (binary control/IPF) 48
+         rho   p_value       ci_lo     ci_hi loo_rho_min loo_rho_max
+ -0.04990619 0.7597445 -0.34984133 0.2736307 -0.10060729  0.01012146
+ -0.01139818 0.9387113 -0.28763634 0.2717435 -0.05087882  0.03700278
+ -0.15403377 0.3426291 -0.43623180 0.1732005 -0.21214575 -0.09170040
+  0.18965597 0.1966712 -0.02631293 0.3845358  0.13657580  0.21285505
+ -0.08070467 0.5855538 -0.36204462 0.2100914 -0.14979282  0.00000000
+
+=== INDIVIDUAL GENE RESULTS (BH-FDR corrected) ===
+                                  comparison  n         rho      p_value
+     GSE53845_lung: HSF2 vs LTF (IPF subset) 40  0.64634146 6.632202e-06
+    GSE53845_lung: HSF2 vs NCF2 (IPF subset) 40 -0.66472795 2.896044e-06
+    GSE53845_lung: HSF2 vs LCN2 (IPF subset) 40  0.65481495 4.558594e-06
+    GSE53845_lung: HSF2 vs CAMP (IPF subset) 40 -0.52945591 4.430332e-04
+     GSE53845_lung: HSF2 vs MPO (IPF subset) 40 -0.41238274 8.186951e-03
+   GSE53845_lung: HSF2 vs ITGAM (IPF subset) 40 -0.34663915 2.843293e-02
+   GSE53845_lung: HSF2 vs PADI4 (IPF subset) 40  0.18067542 2.645638e-01
+ GSE53845_lung: HSF2 vs S100A12 (IPF subset) 40 -0.11857411 4.661698e-01
+   GSE53845_lung: HSF2 vs DEFA4 (IPF subset) 40 -0.09681051 5.523339e-01
+   GSE53845_lung: HSF2 vs ELANE (IPF subset) 40  0.07542214 6.436904e-01
+    GSE53845_lung: HSF2 vs CTSG (IPF subset) 40 -0.05966229 7.145903e-01
+    GSE53845_lung: HSF2 vs AZU1 (IPF subset) 40 -0.05347092 7.431456e-01
+        p_FDR
+ 2.652881e-05
+ 2.652881e-05
+ 2.652881e-05
+ 1.329100e-03
+ 1.964868e-02
+ 5.686586e-02
+ 4.535379e-01
+ 6.992547e-01
+ 7.364452e-01
+ 7.431456e-01
+ 7.431456e-01
+ 7.431456e-01
+
+=== REPLICATION CHECK: HSF2 vs NET_core primary endpoint (lung) ===
+Cohort1 (GSE47460) rho=-0.392 p=8.12e-06 | Cohort2 (GSE53845) rho=-0.050 p=0.76
+Same sign: TRUE | Both nominally significant: FALSE | REPLICATED (pre-specified rule): FALSE
+`geom_smooth()` using formula = 'y ~ x'
+
+Done. Outputs written to C:/Users/SAMSUNG/Desktop/project2/results and C:/Users/SAMSUNG/Desktop/project2/figures 

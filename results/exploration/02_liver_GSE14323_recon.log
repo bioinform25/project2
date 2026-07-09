@@ -1,0 +1,68 @@
+Found 2 file(s)
+GSE14323-GPL571_series_matrix.txt.gz
+GSE14323-GPL96_series_matrix.txt.gz
+Number of platforms/series returned: 2 
+dim(es): 22277 115 
+
+--- pData columns ---
+ [1] "title"                   "geo_accession"          
+ [3] "status"                  "submission_date"        
+ [5] "last_update_date"        "type"                   
+ [7] "channel_count"           "source_name_ch1"        
+ [9] "organism_ch1"            "characteristics_ch1"    
+[11] "treatment_protocol_ch1"  "growth_protocol_ch1"    
+[13] "molecule_ch1"            "extract_protocol_ch1"   
+[15] "label_ch1"               "label_protocol_ch1"     
+[17] "taxid_ch1"               "hyb_protocol"           
+[19] "scan_protocol"           "description"            
+[21] "data_processing"         "platform_id"            
+[23] "contact_name"            "contact_email"          
+[25] "contact_phone"           "contact_department"     
+[27] "contact_institute"       "contact_address"        
+[29] "contact_city"            "contact_state"          
+[31] "contact_zip/postal_code" "contact_country"        
+[33] "supplementary_file"      "data_row_count"         
+[35] "Tissue:ch1"             
+
+--- title / source_name / characteristics sample ---
+                                   title                source_name_ch1
+GSM358112         HCC, biological rep 10          liver tissue with HCC
+GSM358113  cirrhosisHCC, match HCC rep 1 liver tissue with cirrhosisHCC
+GSM358114         HCC, biological rep 11          liver tissue with HCC
+GSM358115         HCC, biological rep 12          liver tissue with HCC
+GSM358116 cirrhosisHCC, match HCC rep 12 liver tissue with cirrhosisHCC
+GSM358117 cirrhosisHCC, match HCC rep 13 liver tissue with cirrhosisHCC
+GSM358118         HCC, biological rep 13          liver tissue with HCC
+GSM358119   cirrhosis, biological rep 41    liver tissue with cirrhosis
+GSM358120         HCC, biological rep 14          liver tissue with HCC
+GSM358121 cirrhosisHCC, biological rep 3 liver tissue with cirrhosisHCC
+GSM358122         HCC, biological rep 15          liver tissue with HCC
+GSM358123    cirrhosis, biological rep 1    liver tissue with cirrhosis
+GSM358124         HCC, biological rep 16          liver tissue with HCC
+GSM358125         HCC, biological rep 17          liver tissue with HCC
+GSM358126 cirrhosisHCC, match HCC rep 16 liver tissue with cirrhosisHCC
+           characteristics_ch1
+GSM358112          Tissue: HCC
+GSM358113 Tissue: cirrhosisHCC
+GSM358114          Tissue: HCC
+GSM358115          Tissue: HCC
+GSM358116 Tissue: cirrhosisHCC
+GSM358117 Tissue: cirrhosisHCC
+GSM358118          Tissue: HCC
+GSM358119    Tissue: cirrhosis
+GSM358120          Tissue: HCC
+GSM358121 Tissue: cirrhosisHCC
+GSM358122          Tissue: HCC
+GSM358123    Tissue: cirrhosis
+GSM358124          Tissue: HCC
+GSM358125          Tissue: HCC
+GSM358126 Tissue: cirrhosisHCC
+
+--- fData columns ---
+ [1] "ID"                    "Gene title"            "Gene symbol"          
+ [4] "Gene ID"               "UniGene title"         "UniGene symbol"       
+ [7] "UniGene ID"            "Nucleotide Title"      "GI"                   
+[10] "GenBank Accession"     "Platform_CLONEID"      "Platform_ORF"         
+[13] "Platform_SPOTID"       "Chromosome location"   "Chromosome annotation"
+[16] "GO:Function"           "GO:Process"            "GO:Component"         
+[19] "GO:Function ID"        "GO:Process ID"         "GO:Component ID"      

@@ -1,0 +1,49 @@
+Found 2 file(s)
+GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GSE14323-GPL571_series_matrix.txt.gz
+Using locally cached version of GPL571 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GPL571.annot.gz 
+GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GSE14323-GPL96_series_matrix.txt.gz
+Using locally cached version of GPL96 found here:
+C:/Users/SAMSUNG/Desktop/HSF2_NETosis_fibrosis/data/GSE14323/GPL96.annot.gz 
+
+
+=========== gset[[ 1 ]] :  GPL571  ===========
+dim: 22277 115 
+
+   cirrhosis cirrhosisHCC          HCC       Normal 
+          41           17           38           19 
+Probe hits for target genes:
+                     ID Gene symbol
+202018_s_at 202018_s_at         LTF
+203948_s_at 203948_s_at         MPO
+203949_at     203949_at         MPO
+205653_at     205653_at        CTSG
+206871_at     206871_at       ELANE
+209657_s_at 209657_s_at        HSF2
+211220_s_at 211220_s_at        HSF2
+211412_at     211412_at       PADI4
+211413_s_at 211413_s_at       PADI4
+214575_s_at 214575_s_at        AZU1
+220001_at     220001_at       PADI4
+
+
+=========== gset[[ 2 ]] :  GPL96  ===========
+dim: 22283 9 
+
+HCC 
+  9 
+Probe hits for target genes:
+                     ID Gene symbol
+202018_s_at 202018_s_at         LTF
+203948_s_at 203948_s_at         MPO
+203949_at     203949_at         MPO
+205653_at     205653_at        CTSG
+206871_at     206871_at       ELANE
+209657_s_at 209657_s_at        HSF2
+211220_s_at 211220_s_at        HSF2
+211412_at     211412_at       PADI4
+211413_s_at 211413_s_at       PADI4
+214575_s_at 214575_s_at        AZU1
+220001_at     220001_at       PADI4
