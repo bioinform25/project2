@@ -1,0 +1,11 @@
+sheets: Sheet1 
+dim: 27611 2 
+# A tibble: 5 × 2
+  gene_id  Expression_NR1.R
+  <chr>               <dbl>
+1 A1BG               95.5  
+2 A1BG-AS1            0.703
+3 A1CF               10.5  
+4 A2M                90.3  
+5 A2M-AS1             0.178
+colnames: gene_id, Expression_NR1.R 

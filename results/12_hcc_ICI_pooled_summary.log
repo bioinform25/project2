@@ -1,0 +1,19 @@
+=== HSF2: Responder vs Non-responder, rank-biserial effect size, 3 cohorts ===
+(positive r_rb = HSF2 higher in Responders; negative = HSF2 lower in Responders)
+    cohort                             regimen  n n_R n_NR       r_rb
+ GSE215011   anti-PD-1 monotherapy (nivolumab) 10   5    5  0.4400000
+ GSE279750     anti-PD-L1 combination, post-tx 10   6    4 -0.9166667
+ GSE235863 anti-PD-1+lenvatinib combo, post-tx 15  11    4 -0.7272727
+      ci_lo      ci_hi    p_value
+ -0.2853333  1.0000000 0.29626987
+ -1.0000000 -0.6190476 0.02518146
+ -1.0000000 -0.2307692 0.04300589
+
+=== Pooled (random-effects, 3 cohorts) ===
+pooled r_rb = -0.590, 95% CI [-0.944, 0.391], p = 0.223, I^2 = 87.1%
+Warning message:
+`geom_errorbarh()` was deprecated in ggplot2 4.0.0.
+ℹ Please use the `orientation` argument of `geom_errorbar()` instead. 
+`height` was translated to `width`.
+
+Done.

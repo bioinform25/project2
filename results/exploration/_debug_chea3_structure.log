@@ -1,0 +1,55 @@
+Warning message:
+In readLines("C:/Users/SAMSUNG/Desktop/project2/results/exploration/chea3_raw_response.json") :
+  incomplete final line found on 'C:/Users/SAMSUNG/Desktop/project2/results/exploration/chea3_raw_response.json'
+Libraries:
+[1] "Integrated--meanRank" "Integrated--topRank"  "GTEx--Coexpression"  
+[4] "ReMap--ChIP-seq"      "Enrichr--Queries"     "ENCODE--ChIP-seq"    
+[7] "ARCHS4--Coexpression" "Literature--ChIP-seq"
+
+--- Integrated--meanRank --- colnames: Query Name,Rank,TF,Score,Library,Overlapping_Genes  nrow: 1632 
+HSF2 rows: 1 
+              Query Name Rank   TF  Score
+1444 NET_core_consistent 1444 HSF2 1107.0
+                                                                 Library
+1444 ARCHS4 Coexpression,1209;Enrichr Queries,695;GTEx Coexpression,1417
+     Overlapping_Genes
+1444                  
+
+--- Integrated--topRank --- colnames: Query Name,Rank,TF,Score,Library,Overlapping_Genes  nrow: 1632 
+HSF2 rows: 1 
+              Query Name Rank   TF Score               Library
+1383 NET_core_consistent 1383 HSF2 0.495 Enrichr Queries,0.495
+     Overlapping_Genes
+1383                  
+
+--- GTEx--Coexpression --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 1607 
+HSF2 rows: 1 
+              Query Name Rank Scaled Rank Set_name   TF Intersect Set length
+1417 NET_core_consistent 1417      0.8818     HSF2 HSF2         0        298
+     FET p-value FDR Odds Ratio            Library Overlapping_Genes
+1417         1.0 1.0        0.0 GTEx--Coexpression                  
+
+--- ReMap--ChIP-seq --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 297 
+HSF2 rows: 0 
+
+--- Enrichr--Queries --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 1404 
+HSF2 rows: 1 
+             Query Name Rank Scaled Rank Set_name   TF Intersect Set length
+695 NET_core_consistent  695       0.495     HSF2 HSF2         0        297
+    FET p-value FDR Odds Ratio          Library Overlapping_Genes
+695         1.0 1.0        0.0 Enrichr--Queries                  
+
+--- ENCODE--ChIP-seq --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 118 
+HSF2 rows: 0 
+
+--- ARCHS4--Coexpression --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 1628 
+HSF2 rows: 1 
+              Query Name Rank Scaled Rank            Set_name   TF Intersect
+1209 NET_core_consistent 1209      0.7426 HSF2_ARCHS4_PEARSON HSF2         0
+     Set length FET p-value FDR Odds Ratio              Library
+1209        299         1.0 1.0        0.0 ARCHS4--Coexpression
+     Overlapping_Genes
+1209                  
+
+--- Literature--ChIP-seq --- colnames: Query Name,Rank,Scaled Rank,Set_name,TF,Intersect,Set length,FET p-value,FDR,Odds Ratio,Library,Overlapping_Genes  nrow: 164 
+HSF2 rows: 0 

@@ -1,0 +1,19 @@
+Panel genes found: 13 / 13 
+
+=== HSF2/NET_core: Responder vs Non-responder (Wilcoxon, n=11 vs 4, EXPLORATORY) ===
+                               comparison n_R n_NR     mean_R    mean_NR
+         HSF2: Responder vs Non-responder  11    4 1.40200750  2.0765411
+     NET_core: Responder vs Non-responder  11    4 0.11147199 -0.3065480
+ NET_extended: Responder vs Non-responder  11    4 0.08705956 -0.2394138
+ diff_R_minus_NR    p_value
+      -0.6745335 0.04300589
+       0.4180200 0.26710890
+       0.3264733 0.13324702
+
+=== HSF2 vs NET_core correlation across all 15 tumors ===
+                                      comparison  n        rho   p_value
+ GSE235863_HCC: HSF2 vs NET_core (all 15 tumors) 15 0.08928571 0.7516725
+      ci_lo     ci_hi loo_rho_min loo_rho_max
+ -0.4097749 0.6272708 -0.02417582   0.2879121
+
+Done.

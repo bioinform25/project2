@@ -80,6 +80,28 @@ GSE53845의 과소검정력 때문)
 - 다음 단계로 **분리된 순수 호중구**에서 HSF2와 NET 마커(PADI4 등)를 직접 같이 측정하는 wet-lab
   실험이 이 벌크조직 상관관계의 세포특이성 모호함을 해소하는 핵심 실험임.
 
+## 유전자별 코호트 간 일관성 (`scripts/08_cross_cohort_gene_consistency.R`)
+
+개별 NET 패널 유전자를 코호트 4개에 걸쳐 교차 검증한 결과, 명확히 두 그룹으로 나뉨:
+
+- **일관되게 음의 상관 (4개 코호트 전부 같은 방향)**: CAMP, MPO, DEFA4, 그리고 대체로 PADI4·ELANE도
+  같은 경향(3/4 유의). NETosis 효소·항균과립 단백질 계열.
+- **장기 간 방향이 뒤집힘 (간 vs 폐 불일치)**: LTF, NCF2, ITGAM, LCN2. 특히 LCN2는 간세포/상피세포
+  스트레스 반응에서도 널리 발현되는 유전자로 알려져 있어, 호중구 특이적 신호가 아닐 가능성을 항상
+  같이 고려해야 함.
+
+전체 표: `results/CROSS_COHORT_gene_consistency.csv`
+
+## ChEA3 in silico 검증 (`scripts/09_chea3_analysis.R`)
+
+위에서 가장 일관됐던 유전자 세트(PADI4/ELANE/MPO/CAMP/DEFA4)를 ChEA3에 질의해 HSF2가 이들의 상위
+조절인자로 예측되는지 확인. **HSF2는 8개 라이브러리(ENCODE ChIP-seq, ReMap ChIP-seq, Literature
+ChIP-seq 포함) 중 어디에서도 상위권에 들지 못함** — 순위는 항상 하위 10% 이내(예: Integrated
+meanRank 1444/1632위), 유전자 중첩(intersect)은 전부 0. ChIP-seq 3개 라이브러리에서는 아예 결과에
+등장조차 안 함. → 기존 공개 데이터베이스에는 "HSF2가 이 유전자들을 켠다"는 근거가 전무함. 이는
+관계가 음의 방향(억제성)이라 co-expression 기반 도구가 원래 못 잡는 것과도 부합하고, 동시에 이 축이
+정말 미개척임을 다시 확인해줌. 전체 표: `results/CHEA3_HSF2_enrichment_results.csv`
+
 ## 산출물
 
 - `results/ALL_COHORTS_primary_endpoint_summary.csv`, `ALL_COHORTS_meta_analysis_summary.csv`: 종합표
@@ -104,9 +126,24 @@ responder 5 / non-responder 5) — HSF2 및 NET_core 유전자 전부(13/13) 측
 | NET_core: Responder vs Non-responder | 5 vs 5 | Responder에서 근소하게 높음 | 0.67 (n.s.) |
 | HSF2 vs NET_core (전체 10개 종양) | 10 | rho=+0.17 | 0.65 (n.s., CI [-0.51, 0.92]) |
 
-**해석**: n=5 vs 5는 매우 큰 효과크기가 아니면 애초에 유의성 도달이 불가능한 표본 크기. 모든 검정이
-비유의 — 이 데이터셋은 가설을 지지도 반박도 못 함, "정보 없음"으로 취급해야 함. 흥미롭게도 이 코호트
-에서는 HSF2-NET_core 상관관계 부호가 섬유화 코호트(음의 상관)와 달리 양의 방향으로 나왔지만, 신뢰
-구간이 -0.51~+0.92로 사실상 무정보이므로 "종양 조직에서는 반대 방향일 수 있다"는 결론도 낼 수 없음.
-더 큰 코호트(GSE279750 n=10, GSE235863 n=15 등, 병용요법이라 이질적)를 추가로 pooling하면 검정력을
-보강할 수 있으나 현재는 미착수.
+**해석**: n=5 vs 5는 매우 큰 효과크기가 아니면 애초에 유의성 도달이 불가능한 표본 크기. GSE215011
+단독으로는 모든 검정이 비유의 — "정보 없음"으로 취급.
+
+### ICI 코호트 pooling (`scripts/12_hcc_ICI_pooled_summary.R`)
+
+GSE279750(anti-PD-L1 combo, post-tx, n=10)과 GSE235863(anti-PD-1+lenvatinib combo, post-tx, n=15)를
+추가로 찾아 분석(`scripts/10_*`, `scripts/11_*`). HSF2 vs Responder/Non-responder를 rank-biserial
+상관계수(Wilcoxon 효과크기, scale-free)로 3개 코호트를 통합:
+
+| 코호트 | regimen | n | r_rb (양수=responder에서 HSF2 높음) | p |
+|---|---|---|---|---|
+| GSE215011 | anti-PD-1 단독요법 | 10 | +0.44 | 0.30 (n.s.) |
+| GSE279750 | anti-PD-L1 병용, post-tx | 10 | **-0.92** | **0.025** |
+| GSE235863 | anti-PD-1+lenvatinib 병용, post-tx | 15 | **-0.73** | **0.043** |
+| **Pooled (RE)** | 3개 통합 | 35 | -0.59 | **0.223 (n.s.)**, I²=87.1% |
+
+**해석**: 개별로는 2/3 코호트(병용요법 2개)에서 "HSF2 낮을수록 반응 좋음"이 유의했지만, formal
+meta-analysis는 GSE215011(단독요법, 반대 방향 경향)과의 이질성 때문에 **비유의**(I²=87%, 매우 높은
+이질성). 단독요법 vs 병용요법, 그리고 채취 시점(baseline vs 치료 후)이 섞여 있어 이 불일치가 진짜
+생물학적 차이인지 잡음인지 이 데이터만으로는 결론 못 냄. **"확정된 발견"이 아니라 "추가 검증이
+필요한 흥미로운 단서"로만 취급.**

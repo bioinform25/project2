@@ -1,0 +1,365 @@
+
+
+############  GSE279750  ############
+Found 1 file(s)
+GSE279750_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+--- gset[[ 1 ]] dim: 0 10 platform: GPL20301 ---
+ [1] "title"                   "geo_accession"          
+ [3] "status"                  "submission_date"        
+ [5] "last_update_date"        "type"                   
+ [7] "channel_count"           "source_name_ch1"        
+ [9] "organism_ch1"            "characteristics_ch1"    
+[11] "characteristics_ch1.1"   "characteristics_ch1.2"  
+[13] "growth_protocol_ch1"     "molecule_ch1"           
+[15] "extract_protocol_ch1"    "extract_protocol_ch1.1" 
+[17] "taxid_ch1"               "data_processing"        
+[19] "data_processing.1"       "data_processing.2"      
+[21] "data_processing.3"       "platform_id"            
+[23] "contact_name"            "contact_email"          
+[25] "contact_institute"       "contact_address"        
+[27] "contact_city"            "contact_zip/postal_code"
+[29] "contact_country"         "data_row_count"         
+[31] "instrument_model"        "library_selection"      
+[33] "library_source"          "library_strategy"       
+[35] "relation"                "relation.1"             
+[37] "supplementary_file_1"    "cell type:ch1"          
+[39] "patient:ch1"             "tissue:ch1"             
+
+ title :
+
+Nonresponder1 Nonresponder2 Nonresponder3 Nonresponder4    Responder1 
+            1             1             1             1             1 
+   Responder2    Responder3    Responder4    Responder5    Responder6 
+            1             1             1             1             1 
+         <NA> 
+            0 
+supplementary_file:
+[1] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8579nnn/GSM8579621/suppl/GSM8579621_NR1.R.xlsx"
+[2] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8579nnn/GSM8579622/suppl/GSM8579622_NR2.R.xlsx"
+[3] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8579nnn/GSM8579623/suppl/GSM8579623_NR3.R.xlsx"
+                                                                      size
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar 7014400
+                                                                   isdir mode
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar FALSE  666
+                                                                                 mtime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar 2026-07-09 12:44:46
+                                                                                 ctime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar 2026-07-09 12:44:42
+                                                                                 atime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar 2026-07-09 12:44:46
+                                                                   exe   uname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar  no SAMSUNG
+                                                                   udomain
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar SAMSUNG
+                                                                               fname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar GSE279750_RAW.tar
+                                                                                                            destdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar C:/Users/SAMSUNG/Desktop/project2/data/GSE279750
+                                                                                                                             filepath
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar
+                                                                         GEO
+C:/Users/SAMSUNG/Desktop/project2/data/GSE279750/GSE279750_RAW.tar GSE279750
+
+
+############  GSE235863  ############
+Found 1 file(s)
+GSE235863_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+--- gset[[ 1 ]] dim: 0 69 platform: GPL24676 ---
+ [1] "title"                   "geo_accession"          
+ [3] "status"                  "submission_date"        
+ [5] "last_update_date"        "type"                   
+ [7] "channel_count"           "source_name_ch1"        
+ [9] "organism_ch1"            "characteristics_ch1"    
+[11] "characteristics_ch1.1"   "characteristics_ch1.2"  
+[13] "characteristics_ch1.3"   "characteristics_ch1.4"  
+[15] "characteristics_ch1.5"   "treatment_protocol_ch1" 
+[17] "molecule_ch1"            "extract_protocol_ch1"   
+[19] "extract_protocol_ch1.1"  "extract_protocol_ch1.2" 
+[21] "taxid_ch1"               "description"            
+[23] "description.1"           "description.2"          
+[25] "description.3"           "data_processing"        
+[27] "data_processing.1"       "data_processing.2"      
+[29] "data_processing.3"       "data_processing.4"      
+[31] "data_processing.5"       "data_processing.6"      
+[33] "platform_id"             "contact_name"           
+[35] "contact_institute"       "contact_address"        
+[37] "contact_city"            "contact_state"          
+[39] "contact_zip/postal_code" "contact_country"        
+[41] "data_row_count"          "instrument_model"       
+[43] "library_selection"       "library_source"         
+[45] "library_strategy"        "supplementary_file_1"   
+[47] "cell type:ch1"           "library type:ch1"       
+[49] "patient:ch1"             "response:ch1"           
+[51] "tissue:ch1"              "treatment:ch1"          
+
+ title :
+
+                              Bulk RNA-seq of post-treatment liver tumor  of patient P34 (NR/SD) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P1 (NR/SD) 
+                                                                                               1 
+                               Bulk RNA-seq of post-treatment liver tumor of patient P16 (NR/PD) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P18 (R/CR) 
+                                                                                               1 
+                               Bulk RNA-seq of post-treatment liver tumor of patient P26 (NR/PD) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P27 (R/PR) 
+                                                                                               1 
+                                 Bulk RNA-seq of post-treatment liver tumor of patient P3 (R/PR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P31 (R/PR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P32 (R/PR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P35 (R/CR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P36 (R/PR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P38 (R/CR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P40 (R/CR) 
+                                                                                               1 
+                                Bulk RNA-seq of post-treatment liver tumor of patient P41 (R/CR) 
+                                                                                               1 
+                                 Bulk RNA-seq of post-treatment liver tumor of patient P5 (R/PR) 
+                                                                                               1 
+      CD45+ immune cells from post-treatment adjacent normal liver tissue of patient P16 (NR/PD) 
+                                                                                               1 
+                               CD45+ immune cells from post-treatment tumor of patient P3 (R/PR) 
+                                                                                               1 
+                         CD45+CD3+ immune cells from post-treatment tumor of patient P16 (NR/PD) 
+                                                                                               1 
+                         CD45+CD3+CD8+ immune cells from on-treatment blood of patient P3 (R/PR) 
+                                                                                               1 
+CD45+CD3+CD8+ immune cells from post-treatment adjacent normal liver tissue of patient P3 (R/PR) 
+                                                                                               1 
+                     CD45+CD3+CD8+ immune cells from post-treatment blood of patient P16 (NR/PD) 
+                                                                                               1 
+                       CD45+CD3+CD8+ immune cells from post-treatment blood of patient P3 (R/PR) 
+                                                                                               1 
+                        CD45+CD3+CD8+ immune cells from post-treatment blood of patient P53 (NR) 
+                                                                                               1 
+                         CD45+CD3+CD8+ immune cells from post-treatment blood of patient P57 (R) 
+                                                                                               1 
+                         CD45+CD3+CD8+ immune cells from post-treatment blood of patient P58 (R) 
+                                                                                               1 
+                     CD45+CD3+CD8+ immune cells from post-treatment tumor of patient P16 (NR/PD) 
+                                                                                               1 
+                       CD45+CD3+CD8+ immune cells from post-treatment tumor of patient P3 (R/PR) 
+                                                                                               1 
+                        CD45+CD3+CD8+ immune cells from post-treatment tumor of patient P53 (NR) 
+                                                                                               1 
+                         CD45+CD3+CD8+ immune cells from post-treatment tumor of patient P57 (R) 
+                                                                                               1 
+                         CD45+CD3+CD8+ immune cells from post-treatment tumor of patient P58 (R) 
+                                                                                               1 
+                      CD45+CD3+CD8+ immune cells from pre-treatment blood of patient P16 (NR/PD) 
+                                                                                               1 
+                        CD45+CD3+CD8+ immune cells from pre-treatment blood of patient P3 (R/PR) 
+                                                                                               1 
+                      CD45+CD3+CD8+ immune cells from pre-treatment tumor of patient P16 (NR/PD) 
+                                                                                               1 
+               CD45+CD3+CD8+Dextramer+ immune cells from post-treatment tumor of patient P58 (R) 
+                                                                                               1 
+    CD45+CD8- immune cells from post-treatment adjacent normal liver tissue of patient P3 (R/PR) 
+                                                                                               1 
+                         CD45+CD8- immune cells from post-treatment tumor of patient P16 (NR/PD) 
+                                                                                               1 
+                           CD45+CD8- immune cells from post-treatment tumor of patient P3 (R/PR) 
+                                                                                               1 
+                          CD45+CD8- immune cells from pre-treatment blood of patient P16 (NR/PD) 
+                                                                                               1 
+                          CD45+CD8- immune cells from pre-treatment tumor of patient P16 (NR/PD) 
+                                                                                               1 
+                                                      Post-treatment blood of patient P1 (NR/SD) 
+                                                                                               1 
+                                                      Post-treatment blood of patient P11 (R/PR) 
+                                                                                               1 
+                                                     Post-treatment blood of patient P15 (NR/PD) 
+                                                                                               1 
+                                                      Post-treatment blood of patient P18 (R/CR) 
+                                                                                               1 
+                                                     Post-treatment blood of patient P26 (NR/PD) 
+                                                                                               1 
+                                                      Post-treatment blood of patient P27 (R/PR) 
+                                                                                               1 
+                                                       Post-treatment blood of patient P5 (R/PR) 
+                                                                                               1 
+                                                     Post-treatment blood of patient P51 (NR/SD) 
+                                                                                               1 
+                                                     Post-treatment blood of patient P52 (NR/SD) 
+                                                                                               1 
+                                                Post-treatment liver tumor of patient P1 (NR/SD) 
+                                                                                               1 
+                                                Post-treatment liver tumor of patient P11 (R/PR) 
+                                                                                               1 
+                                                Post-treatment liver tumor of patient P18 (R/CR) 
+                                                                                               1 
+                                               Post-treatment liver tumor of patient P26 (NR/PD) 
+                                                                                               1 
+                                                Post-treatment liver tumor of patient P27 (R/PR) 
+                                                                                               1 
+                                                 Post-treatment liver tumor of patient P5 (R/PR) 
+                                                                                               1 
+                                               Post-treatment liver tumor of patient P51 (NR/SD) 
+                                                                                               1 
+                                               Post-treatment liver tumor of patient P52 (NR/SD) 
+                                                                                               1 
+                                                       Pre-treatment blood of patient P1 (NR/SD) 
+                                                                                               1 
+                                                       Pre-treatment blood of patient P11 (R/PR) 
+                                                                                               1 
+                                                      Pre-treatment blood of patient P15 (NR/PD) 
+                                                                                               1 
+                                                       Pre-treatment blood of patient P18 (R/CR) 
+                                                                                               1 
+                                                      Pre-treatment blood of patient P26 (NR/PD) 
+                                                                                               1 
+                                                       Pre-treatment blood of patient P27 (R/PR) 
+                                                                                               1 
+                                                        Pre-treatment blood of patient P5 (R/PR) 
+                                                                                               1 
+                                                 Pre-treatment liver tumor of patient P11 (R/PR) 
+                                                                                               1 
+                                                Pre-treatment liver tumor of patient P15 (NR/PD) 
+                                                                                               1 
+                                                 Pre-treatment liver tumor of patient P18 (R/CR) 
+                                                                                               1 
+                                                Pre-treatment liver tumor of patient P26 (NR/PD) 
+                                                                                               1 
+                                                 Pre-treatment liver tumor of patient P27 (R/PR) 
+                                                                                               1 
+                                                  Pre-treatment liver tumor of patient P5 (R/PR) 
+                                                                                               1 
+                                                                                            <NA> 
+                                                                                               0 
+
+ treatment_protocol_ch1 :
+
+All patients included in this study were pathologically diagnosed with HBV-infected hepatocellular carcinoma and received lenvatinib (12 mg/day for bodyweight ≥ 60 kg or 8 mg/day for bodyweight < 60 kg) orally once daily and a PD-1 inhibitor intravenously on day 1 of a 21-day treatment cycle. The anti-PD-1 antibodies and their single-dose infusion were sintilimab 200 mg, pembrolizumab 200 mg, tislelizumab 200 mg, or toripalimab 240 mg. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      69 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    <NA> 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                       0 
+
+ response:ch1 :
+
+    CR, responder                NR             NR/SD PD, non-responder 
+                9                 2                 4                18 
+    PR, responder                 R SD, non-responder              <NA> 
+               26                 5                 5                 0 
+
+ treatment:ch1 :
+
+anti-PD-1 plus lenvatinib combination therapy 
+                                           69 
+                                         <NA> 
+                                            0 
+supplementary_file:
+[1] "NONE" NA     NA    
+                                                                                                               size
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                   1133180
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                          2321423
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                         2609353
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz       612718
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz 329405958
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                         3137035
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz 758311089
+                                                                                                          isdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz FALSE
+                                                                                                          mode
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                  666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                         666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                        666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz     666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz  666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                        666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz  666
+                                                                                                                        mtime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 2026-07-09 12:45:25
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        2026-07-09 12:45:28
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz 2026-07-09 12:49:10
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       2026-07-09 12:49:12
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz 2026-07-09 12:56:55
+                                                                                                                        ctime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 2026-07-09 12:45:23
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        2026-07-09 12:45:25
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       2026-07-09 12:45:28
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz 2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       2026-07-09 12:49:10
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz 2026-07-09 12:49:12
+                                                                                                                        atime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 2026-07-09 12:45:25
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        2026-07-09 12:45:28
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    2026-07-09 12:45:30
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz 2026-07-09 12:49:10
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       2026-07-09 12:49:12
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz 2026-07-09 12:56:55
+                                                                                                          exe
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                  no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                         no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                        no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz     no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz  no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                        no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz  no
+                                                                                                            uname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz SAMSUNG
+                                                                                                          udomain
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz SAMSUNG
+                                                                                                                                                             fname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                                 GSE235863_bulk_rna_seq_raw_counts.txt.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                                               GSE235863_bulk_rna_seq_tpm.txt.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                                             GSE235863_five_patients_TCR.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz       GSE235863_five_patients_dCODE_dextramer_counts.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                                             GSE235863_nine_patients_TCR.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz
+                                                                                                                                                   destdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE235863
+                                                                                                                                                                                                           filepath
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                                 C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                                               C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                                             C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz       C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                                             C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz
+                                                                                                                GEO
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_raw_counts.txt.gz                 GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_bulk_rna_seq_tpm.txt.gz                        GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_TCR.csv.gz                       GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_dCODE_dextramer_counts.csv.gz    GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_five_patients_scRNAseq_cd8t_raw_counts.h5ad.gz GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_TCR.csv.gz                       GSE235863
+C:/Users/SAMSUNG/Desktop/project2/data/GSE235863/GSE235863_nine_patients_scRNAseq_cd45_raw_counts.h5ad.gz GSE235863

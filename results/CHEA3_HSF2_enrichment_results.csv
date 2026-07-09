@@ -1,0 +1,16 @@
+"query","library","rank","total_TFs_ranked","intersect_n","FDR","odds_ratio"
+"NET_core_consistent","Integrated--meanRank","1444",1632,NA,NA,NA
+"NET_core_consistent","Integrated--topRank","1383",1632,NA,NA,NA
+"NET_core_consistent","GTEx--Coexpression","1417",1607,"0","1.0","0.0"
+"NET_core_consistent","Enrichr--Queries","695",1404,"0","1.0","0.0"
+"NET_core_consistent","ARCHS4--Coexpression","1209",1628,"0","1.0","0.0"
+"NET_organ_divergent","Integrated--meanRank","1459",1632,NA,NA,NA
+"NET_organ_divergent","Integrated--topRank","1424",1632,NA,NA,NA
+"NET_organ_divergent","GTEx--Coexpression","1417",1607,"0","1.0","0.0"
+"NET_organ_divergent","Enrichr--Queries","752",1404,"0","1.0","0.0"
+"NET_organ_divergent","ARCHS4--Coexpression","1208",1628,"0","1.0","0.0"
+"NET_core_only","Integrated--meanRank","1444",1632,NA,NA,NA
+"NET_core_only","Integrated--topRank","1384",1632,NA,NA,NA
+"NET_core_only","GTEx--Coexpression","1417",1607,"0","1.0","0.0"
+"NET_core_only","Enrichr--Queries","695",1404,"0","1.0","0.0"
+"NET_core_only","ARCHS4--Coexpression","1208",1628,"0","1.0","0.0"

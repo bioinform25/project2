@@ -1,0 +1,4 @@
+"cohort","regimen","n","n_R","n_NR","r_rb","ci_lo","ci_hi","p_value"
+"GSE215011","anti-PD-1 monotherapy (nivolumab)",10,5,5,0.44,-0.285333333333333,1,0.296269871484286
+"GSE279750","anti-PD-L1 combination, post-tx",10,6,4,-0.916666666666667,-1,-0.619047619047619,0.0251814644044597
+"GSE235863","anti-PD-1+lenvatinib combo, post-tx",15,11,4,-0.727272727272727,-1,-0.230769230769231,0.0430058933601486

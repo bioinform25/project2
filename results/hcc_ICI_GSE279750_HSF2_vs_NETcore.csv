@@ -1,0 +1,2 @@
+"comparison","n","rho","p_value","ci_lo","ci_hi","loo_rho_min","loo_rho_max"
+"GSE279750_HCC: HSF2 vs NET_core (all 10 tumors)",10,-0.127272727272727,0.726057014762789,-0.811320754716981,0.777742990425851,-0.4,0.2
