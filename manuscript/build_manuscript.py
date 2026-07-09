@@ -287,7 +287,7 @@ doc.add_paragraph(
  "with mean count < 10 across samples were removed except for pre-specified panel genes (which "
  "were retained regardless of this filter to accommodate the comparatively low bulk-tissue "
  "expression of neutrophil-lineage transcripts, with per-gene detection rates reported explicitly "
- "in Supplementary Table S6), and variance-stabilizing transformation (blind to any grouping "
+ "in Supplementary Table S1d), and variance-stabilizing transformation (blind to any grouping "
  "variable) was applied using DESeq2 (20). For microarray data (GSE14323, GSE47460, GSE53845), "
  "previously normalized expression values provided by data submitters were used as-is (confirmed "
  "log2-scale; RMA for GSE14323, cyclic-loess for GSE47460, two-color log-ratio for GSE53845). "
@@ -364,7 +364,10 @@ doc.add_paragraph(
  "evidence against the direction observed elsewhere. By the pre-specified replication rule, the "
  "liver primary/replication pair (GSE135251, GSE14323) met the criterion for replication (same "
  "sign, both p < 0.05); the lung pair did not formally meet the criterion because GSE53845 was not "
- "individually significant, though the direction was concordant."
+ "individually significant, though the direction was concordant. Full statistics for this endpoint, "
+ "including bootstrap confidence intervals and leave-one-out sensitivity ranges for each cohort, "
+ "are provided in Supplementary Table S1a; per-cohort scatter plots and boxplots underlying Table 2 "
+ "and Figure 1 are provided in Supplementary Figures S1–S8."
 )
 doc.add_paragraph(
  "A random-effects meta-analysis of all four cohorts yielded a pooled rho of −0.31 (95% CI "
@@ -372,7 +375,8 @@ doc.add_paragraph(
  "attributable largely to the smaller-magnitude GSE53845 estimate. Organ-restricted "
  "meta-analyses were directionally consistent but individually non-significant given only two "
  "studies each (liver-only pooled rho = −0.36, 95% CI −0.69 to 0.09, p = 0.11; lung-only "
- "pooled rho = −0.25, 95% CI −0.54 to 0.10, p = 0.15)."
+ "pooled rho = −0.25, 95% CI −0.54 to 0.10, p = 0.15) (full meta-analysis output: Supplementary "
+ "Table S1b)."
 )
 
 doc.add_heading("Table 2. Primary endpoint (HSF2 vs. NETosis-core score) results.", level=3)
@@ -393,7 +397,9 @@ add_caption(
     "Forest plot of the pre-specified primary endpoint (Spearman rho, HSF2 vs. NETosis-core "
     "score) across all four fibrosis cohorts and pooled random-effects estimates. Error bars are "
     "bootstrap (cohort-level) or random-effects meta-analytic (pooled) 95% confidence intervals; "
-    "point size is proportional to sample size.",
+    "point size is proportional to sample size. See also Supplementary Figures S1–S8 for the "
+    "underlying per-cohort scatter plots and boxplots, and Supplementary Table S1a for full "
+    "statistics.",
     bold_prefix="Figure 1. "
 )
 
@@ -409,7 +415,9 @@ doc.add_paragraph(
  "rho = 0.45, p = 4.7 × 10⁻⁶) (Table 3), the opposite direction from its correlation "
  "with the NETosis-core score. This pattern — HSF2 rising with overall immune infiltration "
  "while falling specifically with NETosis-core gene expression — is inconsistent with a simple "
- "dilution artifact and instead suggests a signal specific to the NETosis gene program."
+ "dilution artifact and instead suggests a signal specific to the NETosis gene program. Full "
+ "statistics, including bootstrap confidence intervals and leave-one-out sensitivity ranges for "
+ "all three pairwise correlations in both cohorts, are provided in Supplementary Table S1c."
 )
 
 doc.add_heading("Table 3. Specificity control: HSF2 vs. PTPRC (pan-leukocyte marker).", level=3)
@@ -426,7 +434,8 @@ doc.add_heading("3.3 Individual-gene cross-cohort consistency identifies a repro
                  "and an organ-divergent set", level=2)
 doc.add_paragraph(
  "Decomposing the NETosis-extended panel into individual genes and examining their direction of "
- "association with HSF2 across all four cohorts (Table 4; full results in Supplementary Table S1) "
+ "association with HSF2 across all four cohorts (Table 4; full per-cohort individual-gene results: "
+ "Supplementary Tables S2; full 12-gene cross-cohort consistency table: Supplementary Table S2e) "
  "revealed two distinct patterns. Five genes — CAMP, MPO, DEFA4, and, with one small-magnitude "
  "exception each, PADI4 and ELANE — showed the same (negative) direction of association with HSF2 "
  "in all four cohorts, reaching FDR < 0.05 in two to three of four cohorts each. In contrast, four "
@@ -438,7 +447,7 @@ doc.add_paragraph(
 )
 
 doc.add_heading("Table 4. Cross-cohort consistency for the five most reproducible NETosis "
-                 "panel genes (full 12-gene table: Supplementary Table S1).", level=3)
+                 "panel genes (full 12-gene table: Supplementary Table S2e).", level=3)
 add_table(
     ["Gene", "GSE135251 rho", "GSE14323 rho", "GSE47460 rho", "GSE53845 rho", "Cohorts FDR<0.05", "Direction"],
     [
@@ -465,11 +474,12 @@ doc.add_paragraph(
  "consistent with two non-exclusive possibilities: (i) ChEA3's co-expression-based libraries are "
  "structurally unable to detect a negative/repressive regulatory relationship of the kind observed "
  "here, and (ii) this specific regulatory axis has not previously been characterized in the public "
- "ChIP-seq and functional genomics literature."
+ "ChIP-seq and functional genomics literature. Full results for all three queried gene sets across "
+ "all eight ChEA3 libraries are provided in Supplementary Table S3."
 )
 
 doc.add_heading("Table 5. ChEA3 in silico enrichment: HSF2 rank summary (consistent gene set "
-                 "query; full results for all 3 queries: Supplementary Table S2).", level=3)
+                 "query; full results for all 3 queries: Supplementary Table S3).", level=3)
 add_table(
     ["Library", "HSF2 rank", "Total TFs ranked", "Gene overlap (intersect)"],
     [
@@ -501,7 +511,10 @@ doc.add_paragraph(
  "(I² = 87.1%) driven by the opposite-direction, non-significant estimate from the "
  "monotherapy cohort. Given the small sample sizes (total n = 35 across three cohorts), differing "
  "regimens, and differing sampling timepoints (baseline versus post-treatment), this analysis is "
- "reported as an unresolved, hypothesis-generating lead rather than a confirmed finding."
+ "reported as an unresolved, hypothesis-generating lead rather than a confirmed finding. Full "
+ "per-cohort sample-level data, group comparisons, and HSF2-vs-NET_core correlations are provided "
+ "in Supplementary Tables S4; the underlying per-cohort scatter plots and boxplots are provided in "
+ "Supplementary Figures S9–S15."
 )
 
 doc.add_heading("Table 6. HCC immune-checkpoint-inhibitor cohorts: HSF2, "
@@ -521,7 +534,9 @@ add_figure(os.path.join(FIG, "FOREST_hcc_ICI_HSF2_pooled.png"), width_in=6.0)
 add_caption(
     "Forest plot of tumor HSF2 (responder vs. non-responder, rank-biserial correlation) across "
     "three independent HCC immune-checkpoint-inhibitor cohorts and the pooled random-effects "
-    "estimate. Positive values indicate higher HSF2 in responders.",
+    "estimate. Positive values indicate higher HSF2 in responders. See also Supplementary Figures "
+    "S9–S15 for the underlying per-cohort scatter plots and boxplots, and Supplementary Tables "
+    "S4 for full statistics.",
     bold_prefix="Figure 2. "
 )
 
