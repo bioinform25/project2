@@ -332,9 +332,12 @@ Heterogeneity: I^2 = %.1f%%",
 content_slide(
     "KEY FINDING — 4-Cohort Meta-Analysis: HSF2 vs. NETosis-Core Score",
     code,
-    "All 4 independent cohorts point the same (negative) direction; pooled effect is "
-    "statistically significant and OPPOSITE the original hypothesis. This is the central "
-    "result of the dry-lab analysis.",
+    "Pooled effect (p=0.010) IS statistically significant and OPPOSITE the original "
+    "hypothesis - even though 1 of 4 cohorts (GSE53845, n=40) was individually underpowered. "
+    "But note I^2=83.5% (high heterogeneity): significance says the direction is real; "
+    "heterogeneity says the SIZE of the effect is not uniform across cohorts. Two separate "
+    "questions - both matter, and this is why the follow-up wet-lab time-course is needed to "
+    "settle the magnitude question.",
     result_image=os.path.join(FIG, "FOREST_HSF2_vs_NETcore_all_cohorts.png"),
     code_label="scripts/05_meta_analysis.R",
     result_label="figures/FOREST_HSF2_vs_NETcore_all_cohorts.png",
@@ -450,7 +453,27 @@ content_slide(
 )
 
 # =====================================================================
-# SLIDE 12: HCC-ICI GATE-CHECK + GSE215011
+# SLIDE 12 (NEW): TRANSITION - WHAT IS "HCC-ICI" AND WHY
+# =====================================================================
+s = new_slide()
+add_title(s, "Next: A Different Question — Does This Matter Clinically?")
+add_text_block(s, MARGIN, Inches(1.3), SLIDE_W - 2 * MARGIN, Inches(5.6),
+    "So far: fibrosis tissue (not cancer) — testing whether HSF2 relates to NETosis genes at "
+    "all. The next 3 slides switch to a different question and a different kind of data.\n\n"
+    "HCC-ICI = Hepatocellular Carcinoma + Immune Checkpoint Inhibitor.\n"
+    "  - HCC: liver cancer\n"
+    "  - ICI: immune checkpoint inhibitor drugs (anti-PD-1 / anti-PD-L1 immunotherapy)\n"
+    "  - \"Cohort\": real liver-cancer patients who received these drugs, each labeled "
+    "Responder or Non-responder, with tumor RNA-seq data available\n\n"
+    "Why look at this: a prior published study (Chen et al., 2022) already showed HSF2 is "
+    "elevated in liver cancer and correlates with immune-checkpoint gene expression. So beyond "
+    "the fibrosis/NETosis question, we also asked: does tumor HSF2 relate to whether real HCC "
+    "patients actually respond to immunotherapy? This tests whether the HSF2 axis has direct "
+    "clinical relevance, not just a tissue-level correlation.",
+    size=16)
+
+# =====================================================================
+# SLIDE 13: HCC-ICI GATE-CHECK + GSE215011
 # =====================================================================
 code = '''# GSE140901 (originally planned HCC-ICI dataset) - GATE-CHECK:
 # 785-gene NanoString panel. Does it even measure our genes?
