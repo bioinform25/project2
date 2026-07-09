@@ -87,3 +87,26 @@ GSE53845의 과소검정력 때문)
 - `results/*_individual_gene_results.csv`: 코호트별 개별 유전자 FDR 보정 결과
 - `figures/FOREST_HSF2_vs_NETcore_all_cohorts.png`: 전체 forest plot
 - `figures/*_HSF2_vs_NETcore.png`, `*_HSF2_by_{stage,group}.png`: 코호트별 산점도/박스플롯
+
+## Step 3: HCC 면역항암제(ICI) 반응성 (`scripts/07_hcc_ICI_GSE215011.R`)
+
+**게이트체크 결과 — GSE140901은 사용 불가로 판정:** 원래 계획했던 GSE140901(HCC, anti-PD-1/anti-CTLA-4,
+n=24)은 NanoString PanCancer Immune Profiling 785유전자 패널이며, 확인 결과 **HSF2가 패널에 아예
+없음** (NET_core 3유전자 중에서도 PADI4·MPO 없음, ELANE만 존재). 대체 패널 유전자로 억지로 끼워맞추지
+않고 이 데이터셋은 배제함 (`scripts/exploration/_debug_gse140901_suppl.R`에 근거 기록).
+
+**대안으로 채택**: GSE215011 (HCC, **nivolumab 단독요법**, whole-transcriptome tumor RNA-seq, n=10:
+responder 5 / non-responder 5) — HSF2 및 NET_core 유전자 전부(13/13) 측정됨.
+
+| 비교 | n | 결과 | p |
+|---|---|---|---|
+| HSF2: Responder vs Non-responder | 5 vs 5 | Responder에서 근소하게 높음 | 0.31 (n.s.) |
+| NET_core: Responder vs Non-responder | 5 vs 5 | Responder에서 근소하게 높음 | 0.67 (n.s.) |
+| HSF2 vs NET_core (전체 10개 종양) | 10 | rho=+0.17 | 0.65 (n.s., CI [-0.51, 0.92]) |
+
+**해석**: n=5 vs 5는 매우 큰 효과크기가 아니면 애초에 유의성 도달이 불가능한 표본 크기. 모든 검정이
+비유의 — 이 데이터셋은 가설을 지지도 반박도 못 함, "정보 없음"으로 취급해야 함. 흥미롭게도 이 코호트
+에서는 HSF2-NET_core 상관관계 부호가 섬유화 코호트(음의 상관)와 달리 양의 방향으로 나왔지만, 신뢰
+구간이 -0.51~+0.92로 사실상 무정보이므로 "종양 조직에서는 반대 방향일 수 있다"는 결론도 낼 수 없음.
+더 큰 코호트(GSE279750 n=10, GSE235863 n=15 등, 병용요법이라 이질적)를 추가로 pooling하면 검정력을
+보강할 수 있으나 현재는 미착수.

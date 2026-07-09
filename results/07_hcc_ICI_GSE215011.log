@@ -1,0 +1,22 @@
+Panel genes found: 13 / 13 
+Warning message:
+In wilcox.test.default(x = DATA[[1L]], y = DATA[[2L]], ...) :
+  cannot compute exact p-value with ties
+
+=== HSF2/NET_core: Responder vs Non-responder (Wilcoxon, n=5 vs 5, EXPLORATORY) ===
+                               comparison n_R n_NR       mean_R      mean_NR
+         HSF2: Responder vs Non-responder   5    5  2.144347497  1.970783678
+     NET_core: Responder vs Non-responder   5    5  0.186115346 -0.186115346
+ NET_extended: Responder vs Non-responder   5    5 -0.003646188  0.003646188
+ diff_R_minus_NR   p_value
+     0.173563819 0.3095238
+     0.372230692 0.6723358
+    -0.007292375 0.6904762
+
+=== HSF2 vs NET_core correlation across all 10 tumors ===
+                                      comparison  n       rho   p_value
+ GSE215011_HCC: HSF2 vs NET_core (all 10 tumors) 10 0.1656566 0.6474077
+     ci_lo     ci_hi loo_rho_min loo_rho_max
+ -0.509434 0.9245041 -0.05020964   0.4518868
+
+Done.

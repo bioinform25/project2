@@ -1,0 +1,83 @@
+Found 1 file(s)
+GSE215011_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+dim: 0 10 platform: GPL11154 
+ [1] "title"                   "geo_accession"          
+ [3] "status"                  "submission_date"        
+ [5] "last_update_date"        "type"                   
+ [7] "channel_count"           "source_name_ch1"        
+ [9] "organism_ch1"            "characteristics_ch1"    
+[11] "characteristics_ch1.1"   "characteristics_ch1.2"  
+[13] "molecule_ch1"            "extract_protocol_ch1"   
+[15] "extract_protocol_ch1.1"  "taxid_ch1"              
+[17] "data_processing"         "data_processing.1"      
+[19] "data_processing.2"       "data_processing.3"      
+[21] "data_processing.4"       "data_processing.5"      
+[23] "data_processing.6"       "platform_id"            
+[25] "contact_name"            "contact_email"          
+[27] "contact_phone"           "contact_institute"      
+[29] "contact_address"         "contact_city"           
+[31] "contact_state"           "contact_zip/postal_code"
+[33] "contact_country"         "data_row_count"         
+[35] "instrument_model"        "library_selection"      
+[37] "library_source"          "library_strategy"       
+[39] "relation"                "relation.1"             
+[41] "supplementary_file_1"    "disease state:ch1"      
+[43] "group:ch1"               "tissue:ch1"             
+
+characteristics:
+
+ title :
+
+Non-Responder, A11_385T Non-Responder, A12_949T Non-Responder, A16_557T 
+                      1                       1                       1 
+Non-Responder, A17_152T  Non-Responder, A19_16T     Responder, A18_440T 
+                      1                       1                       1 
+    Responder, A19_121T     Responder, A19_171T     Responder, A19_174T 
+                      1                       1                       1 
+      Responder, A19_1T                    <NA> 
+                      1                       0 
+
+ characteristics_ch1 :
+
+tissue: tumor          <NA> 
+           10             0 
+
+ characteristics_ch1.1 :
+
+disease state: HCC               <NA> 
+                10                  0 
+
+ characteristics_ch1.2 :
+
+group: Nonresponder    group: Responder                <NA> 
+                  5                   5                   0 
+
+supplementary_file:
+[1] "NONE"
+                                                                                                    size
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz 3738049
+                                                                                                 isdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz FALSE
+                                                                                                 mode
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz  666
+                                                                                                               mtime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz 2026-07-09 12:30:00
+                                                                                                               ctime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz 2026-07-09 12:29:56
+                                                                                                               atime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz 2026-07-09 12:30:00
+                                                                                                 exe
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz  no
+                                                                                                   uname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz SAMSUNG
+                                                                                                 udomain
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz SAMSUNG
+                                                                                                                                           fname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz GSE215011_gene_description_human_samples.txt.gz
+                                                                                                                                          destdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE215011
+                                                                                                                                                                                         filepath
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz
+                                                                                                       GEO
+C:/Users/SAMSUNG/Desktop/project2/data/GSE215011/GSE215011_gene_description_human_samples.txt.gz GSE215011

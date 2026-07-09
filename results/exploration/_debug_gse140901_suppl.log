@@ -1,0 +1,92 @@
+Found 1 file(s)
+GSE140901_series_matrix.txt.gz
+Using locally cached version: C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+Using locally cached version of GPL19965 found here:
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GPL19965.soft.gz 
+supplementary_file:
+ [1] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190059/suppl/GSM4190059_20181004_20181004_cancerimmune_01-1_01.RCC.gz" 
+ [2] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190060/suppl/GSM4190060_20181004_20181004_cancerimmune_02-2_02.RCC.gz" 
+ [3] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190061/suppl/GSM4190061_20181004_20181004_cancerimmune_03-3_03.RCC.gz" 
+ [4] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190062/suppl/GSM4190062_20181004_20181004_cancerimmune_04-6_04.RCC.gz" 
+ [5] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190063/suppl/GSM4190063_20180823_20180823-Ou_01-8_01.RCC.gz"           
+ [6] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190064/suppl/GSM4190064_20181004_20181004_cancerimmune_05-10_05.RCC.gz"
+ [7] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190065/suppl/GSM4190065_20180823_20180823-Ou_02-11_02.RCC.gz"          
+ [8] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190066/suppl/GSM4190066_20181004_20181004_cancerimmune_06-12_06.RCC.gz"
+ [9] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190067/suppl/GSM4190067_20180823_20180823-Ou_03-14_03.RCC.gz"          
+[10] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190068/suppl/GSM4190068_20181004_20181004_cancerimmune_07-16_07.RCC.gz"
+[11] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190069/suppl/GSM4190069_20181004_20181004_cancerimmune_08-17_08.RCC.gz"
+[12] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190070/suppl/GSM4190070_20180823_20180823-Ou_04-18_04.RCC.gz"          
+[13] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190071/suppl/GSM4190071_20180823_20180823-Ou_05-19_05.RCC.gz"          
+[14] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190072/suppl/GSM4190072_20180823_20180823-Ou_06-20_06.RCC.gz"          
+[15] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190073/suppl/GSM4190073_20181004_20181004_cancerimmune_09-21_09.RCC.gz"
+[16] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190074/suppl/GSM4190074_20180823_20180823-Ou_07-22_07.RCC.gz"          
+[17] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190075/suppl/GSM4190075_20180823_20180823-Ou_08-23_08.RCC.gz"          
+[18] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190076/suppl/GSM4190076_20180823_20180823-Ou_09-24_09.RCC.gz"          
+[19] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190077/suppl/GSM4190077_20181004_20181004_cancerimmune_10-25_10.RCC.gz"
+[20] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190078/suppl/GSM4190078_20181004_20181004_cancerimmune_11-26_11.RCC.gz"
+[21] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190079/suppl/GSM4190079_20180823_20180823-Ou_10-27_10.RCC.gz"          
+[22] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190080/suppl/GSM4190080_20181004_20181004_cancerimmune_12-29_12.RCC.gz"
+[23] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190081/suppl/GSM4190081_20180823_20180823-Ou_11-30_11.RCC.gz"          
+[24] "ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4190nnn/GSM4190082/suppl/GSM4190082_20180823_20180823-Ou_12-31_12.RCC.gz"          
+
+best_response:ch1:
+
+  PD   PR   SD <NA> 
+   8    6   10    0 
+
+clinical_benefit_response:ch1:
+
+  No  Yes <NA> 
+  11   13    0 
+
+disease state:ch1:
+
+HCC patient with immune checkpoint inhibitor therapy 
+                                                  24 
+                                                <NA> 
+                                                   0 
+
+etiology:ch1:
+
+  HBV   HCV Other  <NA> 
+   19     3     2     0 
+                                                                                   size
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               235520
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz  63337
+                                                                                 isdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               FALSE
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz FALSE
+                                                                                 mode
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar                666
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz  666
+                                                                                               mtime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               2026-07-09 12:27:50
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz 2026-07-09 12:27:51
+                                                                                               ctime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               2026-07-09 12:27:49
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz 2026-07-09 12:27:50
+                                                                                               atime
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               2026-07-09 12:27:50
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz 2026-07-09 12:27:51
+                                                                                 exe
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar                no
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz  no
+                                                                                   uname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz SAMSUNG
+                                                                                 udomain
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               SAMSUNG
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz SAMSUNG
+                                                                                                           fname
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar                             GSE140901_RAW.tar
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz GSE140901_processed_data.txt.gz
+                                                                                                                          destdir
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               C:/Users/SAMSUNG/Desktop/project2/data/GSE140901
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE140901
+                                                                                                                                                         filepath
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar                             C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz
+                                                                                       GEO
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_RAW.tar               GSE140901
+C:/Users/SAMSUNG/Desktop/project2/data/GSE140901/GSE140901_processed_data.txt.gz GSE140901

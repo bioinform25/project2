@@ -1,0 +1,32 @@
+Found 1 file(s)
+GSE140901_series_matrix.txt.gz
+Annotation GPL not available, so will use submitter GPL instead
+n platforms: 1 
+
+=== gset[[ 1 ]] GPL19965 n= 24 ===
+dim: 0 24 
+ [1] "title"                         "geo_accession"                
+ [3] "status"                        "submission_date"              
+ [5] "last_update_date"              "type"                         
+ [7] "channel_count"                 "source_name_ch1"              
+ [9] "organism_ch1"                  "characteristics_ch1"          
+[11] "characteristics_ch1.1"         "characteristics_ch1.2"        
+[13] "characteristics_ch1.3"         "characteristics_ch1.4"        
+[15] "characteristics_ch1.5"         "characteristics_ch1.6"        
+[17] "characteristics_ch1.7"         "characteristics_ch1.8"        
+[19] "characteristics_ch1.9"         "characteristics_ch1.10"       
+[21] "molecule_ch1"                  "extract_protocol_ch1"         
+[23] "label_ch1"                     "label_protocol_ch1"           
+[25] "taxid_ch1"                     "hyb_protocol"                 
+[27] "scan_protocol"                 "data_processing"              
+[29] "platform_id"                   "contact_name"                 
+[31] "contact_email"                 "contact_department"           
+[33] "contact_institute"             "contact_address"              
+[35] "contact_city"                  "contact_zip/postal_code"      
+[37] "contact_country"               "supplementary_file"           
+[39] "data_row_count"                "age:ch1"                      
+[41] "best_response:ch1"             "clinical_benefit_response:ch1"
+[43] "disease state:ch1"             "etiology:ch1"                 
+[45] "gender:ch1"                    "os_event:ch1"                 
+[47] "os_time:ch1"                   "pfs_event:ch1"                
+[49] "pfs_time:ch1"                  "tissue:ch1"                   
