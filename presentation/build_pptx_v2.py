@@ -214,8 +214,8 @@ set_run(r0, "PHMG → HSF2 → NETosis Hypothesis: Dry-Lab Verification", 30, bo
 p1 = tf.add_paragraph()
 p1.space_before = Pt(16)
 r1 = p1.add_run()
-set_run(r1, "Public human fibrosis (GSE135251, GSE14323, GSE47460, GSE53845) + HCC-ICI "
-            "(GSE215011, GSE279750, GSE235863) cohort analysis", 18)
+set_run(r1, "공개 human 섬유화 코호트(GSE135251, GSE14323, GSE47460, GSE53845) + "
+            "HCC 면역항암제 코호트(GSE215011, GSE279750, GSE235863) 분석", 18)
 p2 = tf.add_paragraph()
 p2.space_before = Pt(10)
 r2 = p2.add_run()
@@ -225,19 +225,17 @@ set_run(r2, "github.com/bioinform25/project2", 13)
 # SLIDE 2: OVERVIEW
 # =====================================================================
 add_overview_slide("Overall Study Flow", [
-    "- Lab's wet-lab experiments: PHMG 6 mg/kg in vivo mouse neutrophil RNA-seq -> HSF2 "
-    "ranked #1 upstream TF of upregulated genes; ex vivo PHMG 3 ug/mL, 6h -> Western blot "
-    "shows a thicker HSF2 band.",
-    "- Working hypothesis: PHMG -> HSF2 activation -> N2 (immunosuppressive) neutrophil "
-    "polarization -> NETosis-gene induction -> fibrosis / HCC immune evasion.",
-    "- This deck: before more wet-lab work, tests the population-level prediction of that "
-    "hypothesis (HSF2 up -> NETosis-core genes up) using 4 independent public human fibrosis "
-    "cohorts, then extends to 3 independent HCC immunotherapy-response cohorts.",
-    "- 12 R scripts total (scripts/00-12 in the repo), all pre-registered before results were "
-    "seen: primary endpoint, replication rule, specificity control, in silico TF check, and "
-    "meta-analyses throughout.",
-    "- This PPT walks through every script's code, actual output, and a one-line "
-    "interpretation, in the order the analysis was actually run.",
+    "- 연구실 웻랩 실험: PHMG 6 mg/kg in vivo 마우스 호중구 RNA-seq → 상승(upregulated) 유전자군의 "
+    "1순위 상위 TF로 HSF2 확인; ex vivo PHMG 3 ug/mL, 6시간 처리 → Western blot에서 HSF2 band "
+    "두꺼워짐 관찰.",
+    "- 작업 가설: PHMG → HSF2 활성화 → N2(면역억제성) 호중구 극성화 → NETosis 유전자 발현 유도 → "
+    "섬유화 / 간암(HCC) 면역회피.",
+    "- 이 자료의 목적: 추가 웻랩 실험 전에, 이 가설의 population-level 예측(HSF2↑ → NETosis 핵심 "
+    "유전자↑)을 4개의 독립적인 공개 human 섬유화 코호트로 먼저 검증하고, 3개의 독립적인 HCC 면역항암제 "
+    "반응성 코호트로 확장 분석.",
+    "- 총 12개 R 스크립트(repo의 scripts/00-12) — 결과를 보기 전에 미리 지정한 분석계획: 1차 endpoint, "
+    "재현성 규칙, 특이성 대조, in silico TF 검증, 전체 meta-analysis까지 포함.",
+    "- 이 PPT는 실제 분석이 진행된 순서 그대로, 각 스크립트의 코드·실제 결과·한 줄 해석을 정리했습니다.",
 ])
 
 # =====================================================================
@@ -245,7 +243,7 @@ add_overview_slide("Overall Study Flow", [
 # =====================================================================
 add_section_header(
     "PART 1 — Human Fibrosis Cohorts",
-    "Does HSF2 positively correlate with NETosis-core genes in fibrotic liver/lung tissue?"
+    "섬유화된 간·폐 조직에서 HSF2가 NETosis 핵심 유전자와 양의 상관관계를 보이는가?"
 )
 
 # =====================================================================
@@ -266,9 +264,9 @@ code = [
 content_slide(
     "00_functions.R — Pre-Specified Hypothesis & Analysis Plan",
     code,
-    "If HSF2 drives NETosis-gene expression, HSF2 should POSITIVELY correlate with "
-    "PADI4/ELANE/MPO in fibrotic tissue, reproducibly across independent cohorts. This plan "
-    "was fixed before any correlation was computed.",
+    "HSF2가 NETosis 유전자 발현을 유도한다면, 섬유화 조직에서 HSF2는 PADI4/ELANE/MPO와 양의 "
+    "상관관계를 보여야 하고, 독립적인 코호트들에서 재현되어야 함. 이 계획은 실제 상관관계를 "
+    "계산해보기 전에 미리 고정함.",
     result_table=(
         ["Cohort", "Organ", "Role", "n (fibrotic)"],
         [
@@ -295,8 +293,8 @@ code = [
 content_slide(
     "01_liver_GSE135251.R — Liver, Primary Cohort (n=206)",
     code,
-    "Result is OPPOSITE the original hypothesis: HSF2 correlates negatively with the "
-    "NETosis-core score in fibrotic liver tissue.",
+    "결과는 원 가설과 반대 방향: 섬유화된 간 조직에서 HSF2는 NETosis_core score와 음의 상관관계를 "
+    "보임.",
     result_image=os.path.join(FIG, "liver_GSE135251_HSF2_vs_NETcore.png"),
 )
 
@@ -316,8 +314,8 @@ code = [
 content_slide(
     "02_liver_GSE14323.R — Liver, Replication Cohort (n=96)",
     code,
-    "Independent platform, independent patients — same negative direction, much stronger "
-    "(rho=-0.550, p=6.2e-09). Formally REPLICATES the liver finding.",
+    "독립적인 플랫폼, 독립적인 환자군 — 같은 음의 방향, 훨씬 강함(rho=-0.550, p=6.2e-09). 간 코호트 "
+    "결과가 공식적으로 재현(REPLICATE)됨.",
     result_image=os.path.join(FIG, "liver_GSE14323_HSF2_vs_NETcore.png"),
 )
 
@@ -335,8 +333,8 @@ code = [
 content_slide(
     "03_lung_GSE47460.R — Lung, Primary Cohort (n=122)",
     code,
-    "Different organ (lung, not liver), different platform — same negative direction, "
-    "highly significant (rho=-0.392, p=8.1e-06). Pattern is not liver-specific.",
+    "다른 장기(간이 아닌 폐), 다른 플랫폼 — 같은 음의 방향, 매우 유의함(rho=-0.392, p=8.1e-06). "
+    "간에만 국한된 패턴이 아님.",
     result_image=os.path.join(FIG, "lung_GSE47460_HSF2_vs_NETcore.png"),
 )
 
@@ -356,8 +354,8 @@ code = [
 content_slide(
     "04_lung_GSE53845.R — Lung, Replication Cohort (n=40)",
     code,
-    "Direction still negative but n=40 is underpowered - not individually significant. "
-    "Treated as \"no information,\" not contradicting evidence; carried into the meta-analysis.",
+    "방향은 여전히 음의 상관이지만 n=40은 검정력 부족 — 개별적으로는 비유의. \"반증\"이 아니라 "
+    "\"정보 없음\"으로 취급하고, meta-analysis에 그대로 포함시킴.",
     result_image=os.path.join(FIG, "lung_GSE53845_HSF2_vs_NETcore.png"),
 )
 
@@ -376,10 +374,9 @@ code = [
 content_slide(
     "05_meta_analysis.R — KEY FINDING: 4-Cohort Meta-Analysis",
     code,
-    "Pooled rho=-0.308 (p=0.010) IS significant and OPPOSITE the hypothesis, even though "
-    "GSE53845 alone was underpowered. But I^2=83.5% (high heterogeneity): significance says "
-    "the direction is real; heterogeneity says the effect SIZE is not uniform across cohorts "
-    "— two separate questions. The wet-lab time-course is what settles the magnitude question.",
+    "Pooled rho=-0.308(p=0.010)는 유의하며 가설과 반대 방향 — GSE53845 단독은 검정력 부족이었지만 "
+    "무관함. 다만 I^2=83.5%(높은 이질성): 유의성은 \"방향이 진짜\"라는 뜻이고, 이질성은 \"효과 크기가 "
+    "코호트마다 일정하지 않다\"는 별개의 질문. 이 크기 문제를 해결해줄 게 웻랩 time-course 실험.",
     result_image=os.path.join(FIG, "FOREST_HSF2_vs_NETcore_all_cohorts.png"),
 )
 
@@ -396,9 +393,9 @@ code = [
 content_slide(
     "06_specificity_check_PTPRC.R — Ruling Out a Trivial Artifact",
     code,
-    "HSF2 rises WITH overall immune infiltration (PTPRC, positive) but falls specifically "
-    "with NETosis-core genes (negative) — opposite directions. Rules out the trivial "
-    "\"more immune cells = less relative HSF2\" explanation.",
+    "HSF2는 전체 면역세포 침윤(PTPRC)과는 함께 증가(양의 상관)하지만 NETosis 핵심 유전자와는 "
+    "특이적으로 감소(음의 상관) — 서로 반대 방향. \"면역세포가 많아져서 HSF2 상대신호가 희석됐다\"는 "
+    "단순한 설명을 배제함.",
     result_table=(
         ["Cohort", "HSF2 vs PTPRC", "HSF2 vs NET_core"],
         [
@@ -423,9 +420,9 @@ code = [
 content_slide(
     "08_cross_cohort_gene_consistency.R — Which Genes Drive This",
     code,
-    "CAMP/MPO/DEFA4 (+ PADI4/ELANE with 1 small exception) move consistently negative with "
-    "HSF2 in all 4 cohorts. LTF/NCF2/ITGAM/LCN2 actually flip sign between liver and lung — "
-    "possibly not neutrophil-specific (e.g. LCN2 is also made by stressed hepatocytes).",
+    "CAMP/MPO/DEFA4(+ 작은 예외 하나씩 있는 PADI4/ELANE)는 4개 코호트 전부에서 HSF2와 일관되게 "
+    "음의 방향. LTF/NCF2/ITGAM/LCN2는 간과 폐 사이에서 부호가 뒤집힘 — 호중구 특이적 신호가 아닐 "
+    "가능성(예: LCN2는 스트레스 받은 간세포에서도 만들어짐).",
     result_table=(
         ["Gene", "GSE135251", "GSE14323", "GSE47460", "GSE53845", "Direction"],
         [
@@ -452,9 +449,9 @@ code = [
 content_slide(
     "09_chea3_analysis.R — No Existing Evidence for This Regulation",
     code,
-    "Across 8 evidence libraries (ChIP-seq + co-expression + literature), HSF2 is never a "
-    "plausible top regulator of this gene set. Either a repressive relationship these tools "
-    "can't detect, or genuinely unstudied territory (blue ocean).",
+    "8개의 증거 라이브러리(ChIP-seq + co-expression + literature) 전체에서 HSF2는 이 유전자 "
+    "세트의 상위 조절인자로 한 번도 나오지 않음. 이 도구들이 못 잡는 억제성 관계이거나, 정말 "
+    "미개척 영역(blue ocean)일 가능성.",
     result_table=(
         ["Library", "HSF2 rank", "Total TFs", "Overlap"],
         [
@@ -472,8 +469,7 @@ content_slide(
 # =====================================================================
 add_section_header(
     "PART 2 — HCC Immunotherapy Cohorts",
-    "HCC = liver cancer, ICI = immune-checkpoint-inhibitor drugs. Does tumor HSF2 relate to "
-    "whether real patients respond to immunotherapy?"
+    "HCC = 간암, ICI = 면역관문억제제. 실제 환자의 종양 HSF2가 면역항암제 반응 여부와 관련 있는가?"
 )
 
 # =====================================================================
@@ -492,9 +488,9 @@ code = [
 content_slide(
     "Dataset Gate-Check + First Cohort: GSE215011 (n=10)",
     code,
-    "Originally planned dataset didn't measure HSF2 at all - checked directly, excluded "
-    "rather than substituting. Found GSE215011 instead (real RNA-seq). Alone, n=10 is too "
-    "small to reach significance (rank-biserial r=0.44, p=0.30).",
+    "원래 계획했던 데이터셋은 HSF2를 아예 측정하지 않음 — 직접 확인 후 대체하지 않고 배제. 대신 "
+    "GSE215011(실제 RNA-seq)을 찾아 사용. n=10 단독으로는 유의성 도달에 표본이 부족함"
+    "(rank-biserial r=0.44, p=0.30).",
     result_image=os.path.join(FIG, "hcc_ICI_GSE215011_HSF2_vs_NETcore.png"),
 )
 
@@ -513,9 +509,8 @@ code = [
 content_slide(
     "Two More Independent HCC-ICI Cohorts (n=10, n=15)",
     code,
-    "Patients with LOWER tumor HSF2 responded better to combination immunotherapy in both "
-    "cohorts (both p<0.05). Note: both are combination-regimen, post-treatment cohorts - "
-    "different design from GSE215011's monotherapy.",
+    "두 코호트 모두에서 종양 HSF2가 낮은 환자일수록 병용 면역항암제에 더 잘 반응(둘 다 p<0.05). "
+    "참고: 둘 다 병용요법·치료 후 코호트 — GSE215011의 단독요법과는 설계가 다름.",
     result_image=os.path.join(FIG, "hcc_ICI_GSE279750_HSF2_by_response.png"),
 )
 
@@ -534,9 +529,9 @@ code = [
 content_slide(
     "12_hcc_ICI_pooled_summary.R — Suggestive Lead, Not Yet Proven",
     code,
-    "IMPORTANT for grant \"preliminary data\" framing: 2 of 3 cohorts individually "
-    "significant, but formal pooled meta-analysis is NOT significant (p=0.22, high "
-    "heterogeneity). Present as a promising signal needing a larger validation cohort.",
+    "연구계획서 \"preliminary data\"로 쓸 때 중요: 3개 중 2개 코호트는 개별적으로 유의하지만, "
+    "정식 pooled meta-analysis는 비유의(p=0.22, 높은 이질성). \"이미 증명됨\"이 아니라 \"더 큰 "
+    "검증 코호트가 필요한 유망한 신호\"로 제시해야 함.",
     result_image=os.path.join(FIG, "FOREST_hcc_ICI_HSF2_pooled.png"),
 )
 
@@ -544,59 +539,55 @@ content_slide(
 # SLIDE 17: SUMMARY
 # =====================================================================
 add_overview_slide("Summary of Dry-Lab Findings", [
-    "- Tested: HSF2 up -> NETosis-gene expression up (positively correlated) in fibrotic "
-    "tissue. Result in 4 independent human liver/lung cohorts: HSF2 is NEGATIVELY correlated "
-    "with the NETosis-core score (pooled rho=-0.31, p=0.010), replicated in 3/4 cohorts, and "
-    "specific (survives the PTPRC immune-infiltration control).",
+    "- 검증한 가설: 섬유화 조직에서 HSF2↑ → NETosis 유전자 발현↑(양의 상관). 결과: 4개의 독립적인 "
+    "human 간·폐 코호트에서 HSF2는 NETosis_core score와 음의 상관(pooled rho=-0.31, p=0.010), "
+    "3/4 코호트에서 재현, PTPRC 면역침윤 대조도 통과한 특이적 신호.",
     "",
-    "- No existing public ChIP-seq/co-expression database shows HSF2 activating these genes "
-    "- genuinely unstudied territory.",
+    "- 기존 공개 ChIP-seq/co-expression 데이터베이스 어디에도 HSF2가 이 유전자들을 활성화한다는 "
+    "근거 없음 — 정말 미개척 영역.",
     "",
-    "- In 3 independent human HCC immunotherapy cohorts, lower tumor HSF2 trends toward "
-    "better treatment response (2/3 individually significant; pooled result inconclusive, "
-    "needs more data).",
+    "- 3개의 독립적인 human HCC 면역항암제 코호트에서 종양 HSF2가 낮을수록 치료 반응이 좋아지는 "
+    "경향(3개 중 2개는 개별 유의; pooled 결과는 아직 불확실, 추가 데이터 필요).",
     "",
-    "- Proposed reframing: HSF2 may not be the \"master switch\" that turns ON NETosis "
-    "together with N2 polarization - it may instead \"decouple\" the two, acting as a brake "
-    "specifically on the NETosis arm while the broader N2/immunosuppressive program proceeds.",
+    "- 제안하는 재해석: HSF2는 N2 극성화와 NETosis를 함께 켜는 \"총사령관\"이 아니라, 오히려 둘을 "
+    "\"분리(decouple)\"시켜서 — 더 넓은 N2/면역억제 프로그램은 진행되게 두면서 NETosis 쪽에만 "
+    "브레이크를 거는 조절자일 수 있음.",
 ])
 
 # =====================================================================
 # SLIDE 18: ASK
 # =====================================================================
 add_overview_slide("What Would Help Next: The In Vivo RNA-seq Gene List", [
-    "- The first lab experiment (PHMG 6 mg/kg in vivo -> neutrophil RNA-seq -> HSF2 ranked "
-    "#1 upstream TF of the upregulated genes) is the missing piece that could directly test "
-    "the \"decoupling\" idea above.",
+    "- 연구실의 첫 실험(PHMG 6 mg/kg in vivo → 호중구 RNA-seq → 상승 유전자군의 1순위 상위 TF가 "
+    "HSF2)이 바로 위 \"decoupling\" 가설을 직접 검증할 수 있는 빠진 조각입니다.",
     "",
-    "- Request: the list of genes UPREGULATED in that in vivo experiment (or the gene set "
-    "fed into the TF-enrichment analysis).",
+    "- 요청: 그 in vivo 실험에서 상승(upregulated)한 유전자 리스트(또는 TF-enrichment 분석에 "
+    "입력한 유전자셋).",
     "",
-    "- If PADI4/ELANE/MPO/CAMP/DEFA4 were part of that upregulated set -> HSF2 and NETosis "
-    "genes moved together in vivo -> tension with the human tissue finding, needs "
-    "reconciling.",
+    "- 만약 PADI4/ELANE/MPO/CAMP/DEFA4가 그 상승 유전자 목록에 포함되어 있었다면 → in vivo에서는 "
+    "HSF2와 NETosis 유전자가 같이 움직였다는 뜻 → human 조직 결과와 상충, 조정이 필요.",
     "",
-    "- If those genes were NOT in the upregulated set (flat or down) -> directly SUPPORTS "
-    "the decoupling hypothesis using the lab's own mouse data, not just outside public data.",
+    "- 만약 그 유전자들이 상승 목록에 없었다면(변화 없음 또는 감소) → 외부 공개 데이터뿐 아니라 "
+    "우리 연구실 자체 마우스 데이터로도 decoupling 가설이 직접 뒷받침됨.",
 ])
 
 # =====================================================================
 # SLIDE 19: NEXT WEEK'S WET-LAB SUGGESTION
 # =====================================================================
 add_overview_slide("Suggestion for Next Week's Neutrophil Time-Course Experiment", [
-    "- Planned: PHMG dose/time-course in isolated neutrophils (building on the single "
-    "3 ug/mL, 6h Western blot result).",
+    "- 계획: 분리된 호중구에서 PHMG 농도/시간별 실험(기존 3 ug/mL, 6시간 단일 Western blot 결과에서 "
+    "확장).",
     "",
-    "- Suggested addition: full time course (1h/2h/4h/6h), not a single timepoint, tracking "
-    "BOTH (a) HSF2 protein/mRNA and (b) NETosis-core mRNA (PADI4, ELANE, MPO, CAMP, DEFA4 "
-    "by qPCR), alongside standard N1 (iNOS, TNF-a, ICAM-1) and N2 (Arg-1, CD206, IL-10) "
-    "markers, plus one functional NETosis readout (extracellular DNA/SYTOX assay).",
+    "- 제안하는 추가사항: 단일 시점이 아닌 전체 time course(1h/2h/4h/6h)로 (a) HSF2 단백질/mRNA와 "
+    "(b) NETosis 핵심 mRNA(PADI4, ELANE, MPO, CAMP, DEFA4, qPCR)를 함께 추적하고, 표준 N1(iNOS, "
+    "TNF-α, ICAM-1)·N2(Arg-1, CD206, IL-10) 마커도 같이, 여기에 기능적 NETosis readout(세포외 "
+    "DNA/SYTOX assay) 하나 추가.",
     "",
-    "- Prediction from dry-lab data: as HSF2 rises, PADI4/ELANE/MPO/CAMP/DEFA4 will NOT "
-    "rise in parallel, while Arg-1/CD206 rise together with HSF2 - N2 polarization and "
-    "NETosis-gene induction become decoupled under toxicant stress.",
+    "- Dry-lab 데이터에 근거한 예측: HSF2가 오를 때 PADI4/ELANE/MPO/CAMP/DEFA4는 같이 오르지 "
+    "않고, Arg-1/CD206은 HSF2와 함께 오를 것 — 독성 스트레스 하에서 N2 극성화와 NETosis 유전자 "
+    "유도가 decoupling됨.",
     "",
-    "- Either outcome (confirmed or refuted) is a real, reportable finding.",
+    "- 어느 쪽 결과가 나오든(확인되든 반박되든) 그 자체로 의미 있는, 보고 가능한 발견입니다.",
 ])
 
 prs.save(OUT)
